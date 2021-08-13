@@ -123,3 +123,34 @@ C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\
 C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminFoodItemMain.resources
 C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminViewRevenue.resources
 C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierMain.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\SmartFoodsDB.mdf
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\SmartFoodsDB_log.ldf
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\ss.mdf
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\ss_log.ldf
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.AssemblyReference.cache
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierCreateForm.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierDelete.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierFindForm.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierUpdate.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminFoodCreateForm.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminFoodDeleteForm.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminFoodFindForm.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.CashierFoodDetails.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminFoodUpdateForm.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminLoginForm.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminMain.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminFoodItemMain.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminViewRevenue.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierMain.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.WelcomeForm.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.CashierLoginForm.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.CashierMain.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Ruchii-ROG-STRIX\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
