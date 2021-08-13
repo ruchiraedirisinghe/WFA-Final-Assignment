@@ -59,8 +59,7 @@ namespace WindowsFormsApp3
             this.bt_AdminLog.Image = null;
             this.bt_AdminLog.ImageSize = new System.Drawing.Size(20, 20);
             this.bt_AdminLog.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.bt_AdminLog.Location = new System.Drawing.Point(295, 376);
-            this.bt_AdminLog.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_AdminLog.Location = new System.Drawing.Point(442, 578);
             this.bt_AdminLog.Name = "bt_AdminLog";
             this.bt_AdminLog.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.bt_AdminLog.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -69,7 +68,7 @@ namespace WindowsFormsApp3
             this.bt_AdminLog.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.bt_AdminLog.OnPressedColor = System.Drawing.Color.Black;
             this.bt_AdminLog.Radius = 12;
-            this.bt_AdminLog.Size = new System.Drawing.Size(135, 34);
+            this.bt_AdminLog.Size = new System.Drawing.Size(202, 52);
             this.bt_AdminLog.TabIndex = 11;
             this.bt_AdminLog.Text = "Log In";
             this.bt_AdminLog.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -81,10 +80,9 @@ namespace WindowsFormsApp3
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(214, 333);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(321, 512);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 26);
+            this.label3.Size = new System.Drawing.Size(134, 40);
             this.label3.TabIndex = 10;
             this.label3.Text = "Password";
             // 
@@ -104,14 +102,14 @@ namespace WindowsFormsApp3
             this.txt_AdminPw.FocusedState.Parent = this.txt_AdminPw;
             this.txt_AdminPw.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_AdminPw.HoverState.Parent = this.txt_AdminPw;
-            this.txt_AdminPw.Location = new System.Drawing.Point(308, 328);
-            this.txt_AdminPw.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_AdminPw.Location = new System.Drawing.Point(462, 505);
+            this.txt_AdminPw.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.txt_AdminPw.Name = "txt_AdminPw";
             this.txt_AdminPw.PasswordChar = '*';
             this.txt_AdminPw.PlaceholderText = "Insert Password";
             this.txt_AdminPw.SelectedText = "";
             this.txt_AdminPw.ShadowDecoration.Parent = this.txt_AdminPw;
-            this.txt_AdminPw.Size = new System.Drawing.Size(215, 31);
+            this.txt_AdminPw.Size = new System.Drawing.Size(322, 48);
             this.txt_AdminPw.TabIndex = 9;
             this.txt_AdminPw.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
             this.txt_AdminPw.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.login);
@@ -122,10 +120,9 @@ namespace WindowsFormsApp3
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(212, 290);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(318, 446);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 26);
+            this.label2.Size = new System.Drawing.Size(139, 40);
             this.label2.TabIndex = 8;
             this.label2.Text = "Username";
             // 
@@ -145,14 +142,14 @@ namespace WindowsFormsApp3
             this.txt_AdminName.FocusedState.Parent = this.txt_AdminName;
             this.txt_AdminName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_AdminName.HoverState.Parent = this.txt_AdminName;
-            this.txt_AdminName.Location = new System.Drawing.Point(308, 286);
-            this.txt_AdminName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_AdminName.Location = new System.Drawing.Point(462, 440);
+            this.txt_AdminName.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.txt_AdminName.Name = "txt_AdminName";
             this.txt_AdminName.PasswordChar = '\0';
             this.txt_AdminName.PlaceholderText = "Insert Username";
             this.txt_AdminName.SelectedText = "";
             this.txt_AdminName.ShadowDecoration.Parent = this.txt_AdminName;
-            this.txt_AdminName.Size = new System.Drawing.Size(215, 32);
+            this.txt_AdminName.Size = new System.Drawing.Size(322, 49);
             this.txt_AdminName.TabIndex = 7;
             this.txt_AdminName.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             this.txt_AdminName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.jump);
@@ -163,10 +160,9 @@ namespace WindowsFormsApp3
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Poppins", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(258, 228);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(387, 351);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(210, 51);
+            this.label1.Size = new System.Drawing.Size(316, 78);
             this.label1.TabIndex = 12;
             this.label1.Text = "Admin Login";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -185,8 +181,7 @@ namespace WindowsFormsApp3
             this.bt_GoBack.ForeColor = System.Drawing.Color.White;
             this.bt_GoBack.Image = null;
             this.bt_GoBack.ImageSize = new System.Drawing.Size(20, 20);
-            this.bt_GoBack.Location = new System.Drawing.Point(11, 453);
-            this.bt_GoBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.bt_GoBack.Location = new System.Drawing.Point(16, 697);
             this.bt_GoBack.Name = "bt_GoBack";
             this.bt_GoBack.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(145)))), ((int)(((byte)(221)))));
             this.bt_GoBack.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(255)))));
@@ -195,18 +190,19 @@ namespace WindowsFormsApp3
             this.bt_GoBack.OnHoverImage = null;
             this.bt_GoBack.OnPressedColor = System.Drawing.Color.Black;
             this.bt_GoBack.Radius = 13;
-            this.bt_GoBack.Size = new System.Drawing.Size(120, 34);
+            this.bt_GoBack.Size = new System.Drawing.Size(180, 52);
             this.bt_GoBack.TabIndex = 13;
             this.bt_GoBack.Text = "Go Back";
             this.bt_GoBack.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.bt_GoBack.Click += new System.EventHandler(this.bt_GoBack_Click);
             // 
             // AdminLoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(736, 498);
+            this.ClientSize = new System.Drawing.Size(1104, 766);
             this.Controls.Add(this.bt_GoBack);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bt_AdminLog);
@@ -215,7 +211,6 @@ namespace WindowsFormsApp3
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txt_AdminName);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "AdminLoginForm";
             this.Text = "Form1";

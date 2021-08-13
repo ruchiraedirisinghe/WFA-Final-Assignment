@@ -107,3 +107,19 @@ C:\Users\Ruchii-ROG-STRIX\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\
 C:\Users\Ruchii-ROG-STRIX\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierFindForm.resources
 C:\Users\Ruchii-ROG-STRIX\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierUpdate.resources
 C:\Users\Ruchii-ROG-STRIX\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierMain.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\SmartFoodsDB.mdf
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\SmartFoodsDB_log.ldf
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\ss.mdf
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\ss_log.ldf
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierCreateForm.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierDelete.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierFindForm.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierUpdate.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminFoodCreateForm.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminFoodDeleteForm.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminFoodFindForm.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.CashierFoodDetails.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminFoodUpdateForm.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminFoodItemMain.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminViewRevenue.resources
+C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.AdminCashierMain.resources

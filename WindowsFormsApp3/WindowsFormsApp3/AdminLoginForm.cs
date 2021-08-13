@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp3
-{
+{ 
     
     public partial class AdminLoginForm : Form
     {
@@ -69,6 +69,13 @@ namespace WindowsFormsApp3
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void bt_GoBack_Click(object sender, EventArgs e)
+        {
+            WelcomeForm welcomeForm = new WelcomeForm();
+            this.Dispose();
+            welcomeForm.Show();
         }
     }
 }

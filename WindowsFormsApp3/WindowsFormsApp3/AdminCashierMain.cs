@@ -33,5 +33,37 @@ namespace WindowsFormsApp3
         {
 
         }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            AdminMain adminMain = new AdminMain();
+            this.Dispose();
+            adminMain.Show();
+        }
+
+        private void bt_CashierLogout_Click(object sender, EventArgs e)
+        {
+            AdminLoginForm adminLoginForm = new AdminLoginForm();
+            this.Dispose();
+            adminLoginForm.Show();
+        }
+
+        private void guna2GradientCircleButton2_Click(object sender, EventArgs e)
+        {
+            AdminCashierFindForm adminCashierFindForm = new AdminCashierFindForm();
+            adminCashierFindForm.Show();
+        }
+
+        private void guna2GradientCircleButton3_Click(object sender, EventArgs e)
+        {
+            AdminCashierCreateForm adminCashierCreateForm = new AdminCashierCreateForm();
+            adminCashierCreateForm.Show();
+        }
+
+        private void guna2GradientCircleButton1_Click_1(object sender, EventArgs e)
+        {
+            AdminCashierUpdate adminCashierUpdate = new AdminCashierUpdate();
+            adminCashierUpdate.Show();
+        }
     }
 }

@@ -31,9 +31,9 @@ namespace WindowsFormsApp3
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminCashierMain));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gunaLabel18 = new Guna.UI.WinForms.GunaLabel();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -79,9 +79,10 @@ namespace WindowsFormsApp3
             this.gunaLabel18.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel18.Font = new System.Drawing.Font("Poppins Black", 20F, System.Drawing.FontStyle.Bold);
             this.gunaLabel18.ForeColor = System.Drawing.Color.Navy;
-            this.gunaLabel18.Location = new System.Drawing.Point(555, 22);
+            this.gunaLabel18.Location = new System.Drawing.Point(832, 34);
+            this.gunaLabel18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel18.Name = "gunaLabel18";
-            this.gunaLabel18.Size = new System.Drawing.Size(278, 48);
+            this.gunaLabel18.Size = new System.Drawing.Size(411, 70);
             this.gunaLabel18.TabIndex = 17;
             this.gunaLabel18.Text = "CASHIER SETTINGS";
             // 
@@ -95,12 +96,14 @@ namespace WindowsFormsApp3
             this.guna2Button7.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
             this.guna2Button7.ForeColor = System.Drawing.Color.White;
             this.guna2Button7.HoverState.Parent = this.guna2Button7;
-            this.guna2Button7.Location = new System.Drawing.Point(1109, 22);
+            this.guna2Button7.Location = new System.Drawing.Point(1664, 34);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
-            this.guna2Button7.Size = new System.Drawing.Size(222, 47);
+            this.guna2Button7.Size = new System.Drawing.Size(333, 72);
             this.guna2Button7.TabIndex = 17;
             this.guna2Button7.Text = "Return to Admin Menu";
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
             // guna2CustomGradientPanel1
             // 
@@ -110,10 +113,11 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(3, 2);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(4, 3);
+            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.ShadowDecoration.Parent = this.guna2CustomGradientPanel1;
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1375, 88);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(2062, 135);
             this.guna2CustomGradientPanel1.TabIndex = 3;
             // 
             // guna2CustomGradientPanel2
@@ -127,10 +131,11 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.Black;
             this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(4, 736);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(6, 1132);
+            this.guna2CustomGradientPanel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.ShadowDecoration.Parent = this.guna2CustomGradientPanel2;
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1373, 89);
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(2060, 137);
             this.guna2CustomGradientPanel2.TabIndex = 4;
             // 
             // bt_CashierLogout
@@ -144,12 +149,14 @@ namespace WindowsFormsApp3
             this.bt_CashierLogout.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_CashierLogout.ForeColor = System.Drawing.Color.White;
             this.bt_CashierLogout.HoverState.Parent = this.bt_CashierLogout;
-            this.bt_CashierLogout.Location = new System.Drawing.Point(1174, 23);
+            this.bt_CashierLogout.Location = new System.Drawing.Point(1761, 35);
+            this.bt_CashierLogout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bt_CashierLogout.Name = "bt_CashierLogout";
             this.bt_CashierLogout.ShadowDecoration.Parent = this.bt_CashierLogout;
-            this.bt_CashierLogout.Size = new System.Drawing.Size(135, 47);
+            this.bt_CashierLogout.Size = new System.Drawing.Size(202, 72);
             this.bt_CashierLogout.TabIndex = 5;
             this.bt_CashierLogout.Text = "LOGOUT";
+            this.bt_CashierLogout.Click += new System.EventHandler(this.bt_CashierLogout_Click);
             // 
             // label2
             // 
@@ -157,9 +164,10 @@ namespace WindowsFormsApp3
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(155, 47);
+            this.label2.Location = new System.Drawing.Point(232, 72);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(563, 23);
+            this.label2.Size = new System.Drawing.Size(852, 36);
             this.label2.TabIndex = 4;
             this.label2.Text = "2021 All Rights Reserved.  Sample Software. Group Assignment - C# - Batch of 20.3" +
     "";
@@ -170,9 +178,10 @@ namespace WindowsFormsApp3
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Poppins", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(153, 15);
+            this.label1.Location = new System.Drawing.Point(230, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 42);
+            this.label1.Size = new System.Drawing.Size(280, 64);
             this.label1.TabIndex = 3;
             this.label1.Text = "SMART MEALS";
             // 
@@ -181,10 +190,11 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel3.BorderRadius = 15;
             this.guna2CustomGradientPanel3.Controls.Add(this.pictureBox1);
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(63, 9);
+            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(94, 14);
+            this.guna2CustomGradientPanel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
             this.guna2CustomGradientPanel3.ShadowDecoration.Parent = this.guna2CustomGradientPanel3;
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(72, 65);
+            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(108, 100);
             this.guna2CustomGradientPanel3.TabIndex = 2;
             // 
             // pictureBox1
@@ -192,9 +202,10 @@ namespace WindowsFormsApp3
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 7);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 11);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(66, 53);
+            this.pictureBox1.Size = new System.Drawing.Size(99, 82);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
@@ -202,9 +213,10 @@ namespace WindowsFormsApp3
             // 
             this.panel1.Controls.Add(this.guna2CustomGradientPanel4);
             this.panel1.Controls.Add(this.guna2CustomGradientPanel5);
-            this.panel1.Location = new System.Drawing.Point(4, 91);
+            this.panel1.Location = new System.Drawing.Point(6, 140);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1370, 636);
+            this.panel1.Size = new System.Drawing.Size(2055, 978);
             this.panel1.TabIndex = 5;
             // 
             // guna2CustomGradientPanel4
@@ -215,10 +227,11 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel4.Controls.Add(this.guna2GradientCircleButton3);
             this.guna2CustomGradientPanel4.Controls.Add(this.guna2GradientCircleButton2);
             this.guna2CustomGradientPanel4.Controls.Add(this.guna2GradientCircleButton1);
-            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(402, 375);
+            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(603, 577);
+            this.guna2CustomGradientPanel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
             this.guna2CustomGradientPanel4.ShadowDecoration.Parent = this.guna2CustomGradientPanel4;
-            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(629, 240);
+            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(944, 369);
             this.guna2CustomGradientPanel4.TabIndex = 3;
             // 
             // guna2GradientButton1
@@ -232,10 +245,11 @@ namespace WindowsFormsApp3
             this.guna2GradientButton1.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(80, 149);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(120, 229);
+            this.guna2GradientButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Size = new System.Drawing.Size(489, 62);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(734, 95);
             this.guna2GradientButton1.TabIndex = 4;
             this.guna2GradientButton1.Text = "Reset Cashier Attempts";
             // 
@@ -249,11 +263,12 @@ namespace WindowsFormsApp3
             this.guna2GradientCircleButton4.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientCircleButton4.ForeColor = System.Drawing.Color.White;
             this.guna2GradientCircleButton4.HoverState.Parent = this.guna2GradientCircleButton4;
-            this.guna2GradientCircleButton4.Location = new System.Drawing.Point(476, 14);
+            this.guna2GradientCircleButton4.Location = new System.Drawing.Point(714, 22);
+            this.guna2GradientCircleButton4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2GradientCircleButton4.Name = "guna2GradientCircleButton4";
             this.guna2GradientCircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2GradientCircleButton4.ShadowDecoration.Parent = this.guna2GradientCircleButton4;
-            this.guna2GradientCircleButton4.Size = new System.Drawing.Size(116, 116);
+            this.guna2GradientCircleButton4.Size = new System.Drawing.Size(174, 178);
             this.guna2GradientCircleButton4.TabIndex = 3;
             this.guna2GradientCircleButton4.Text = "Delete";
             // 
@@ -267,13 +282,15 @@ namespace WindowsFormsApp3
             this.guna2GradientCircleButton3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientCircleButton3.ForeColor = System.Drawing.Color.White;
             this.guna2GradientCircleButton3.HoverState.Parent = this.guna2GradientCircleButton3;
-            this.guna2GradientCircleButton3.Location = new System.Drawing.Point(182, 14);
+            this.guna2GradientCircleButton3.Location = new System.Drawing.Point(273, 22);
+            this.guna2GradientCircleButton3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2GradientCircleButton3.Name = "guna2GradientCircleButton3";
             this.guna2GradientCircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2GradientCircleButton3.ShadowDecoration.Parent = this.guna2GradientCircleButton3;
-            this.guna2GradientCircleButton3.Size = new System.Drawing.Size(116, 116);
+            this.guna2GradientCircleButton3.Size = new System.Drawing.Size(174, 178);
             this.guna2GradientCircleButton3.TabIndex = 2;
             this.guna2GradientCircleButton3.Text = "Create";
+            this.guna2GradientCircleButton3.Click += new System.EventHandler(this.guna2GradientCircleButton3_Click);
             // 
             // guna2GradientCircleButton2
             // 
@@ -285,13 +302,15 @@ namespace WindowsFormsApp3
             this.guna2GradientCircleButton2.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientCircleButton2.ForeColor = System.Drawing.Color.White;
             this.guna2GradientCircleButton2.HoverState.Parent = this.guna2GradientCircleButton2;
-            this.guna2GradientCircleButton2.Location = new System.Drawing.Point(40, 14);
+            this.guna2GradientCircleButton2.Location = new System.Drawing.Point(60, 22);
+            this.guna2GradientCircleButton2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2GradientCircleButton2.Name = "guna2GradientCircleButton2";
             this.guna2GradientCircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2GradientCircleButton2.ShadowDecoration.Parent = this.guna2GradientCircleButton2;
-            this.guna2GradientCircleButton2.Size = new System.Drawing.Size(116, 116);
+            this.guna2GradientCircleButton2.Size = new System.Drawing.Size(174, 178);
             this.guna2GradientCircleButton2.TabIndex = 1;
             this.guna2GradientCircleButton2.Text = "Find";
+            this.guna2GradientCircleButton2.Click += new System.EventHandler(this.guna2GradientCircleButton2_Click);
             // 
             // guna2GradientCircleButton1
             // 
@@ -303,42 +322,45 @@ namespace WindowsFormsApp3
             this.guna2GradientCircleButton1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientCircleButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientCircleButton1.HoverState.Parent = this.guna2GradientCircleButton1;
-            this.guna2GradientCircleButton1.Location = new System.Drawing.Point(327, 14);
+            this.guna2GradientCircleButton1.Location = new System.Drawing.Point(490, 22);
+            this.guna2GradientCircleButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2GradientCircleButton1.Name = "guna2GradientCircleButton1";
             this.guna2GradientCircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2GradientCircleButton1.ShadowDecoration.Parent = this.guna2GradientCircleButton1;
-            this.guna2GradientCircleButton1.Size = new System.Drawing.Size(116, 116);
+            this.guna2GradientCircleButton1.Size = new System.Drawing.Size(174, 178);
             this.guna2GradientCircleButton1.TabIndex = 0;
             this.guna2GradientCircleButton1.Text = "Update";
+            this.guna2GradientCircleButton1.Click += new System.EventHandler(this.guna2GradientCircleButton1_Click_1);
             // 
             // guna2CustomGradientPanel5
             // 
             this.guna2CustomGradientPanel5.BorderRadius = 50;
             this.guna2CustomGradientPanel5.Controls.Add(this.guna2DataGridView1);
-            this.guna2CustomGradientPanel5.Location = new System.Drawing.Point(17, 51);
+            this.guna2CustomGradientPanel5.Location = new System.Drawing.Point(26, 78);
+            this.guna2CustomGradientPanel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2CustomGradientPanel5.Name = "guna2CustomGradientPanel5";
             this.guna2CustomGradientPanel5.ShadowDecoration.Parent = this.guna2CustomGradientPanel5;
-            this.guna2CustomGradientPanel5.Size = new System.Drawing.Size(1341, 299);
+            this.guna2CustomGradientPanel5.Size = new System.Drawing.Size(2012, 460);
             this.guna2CustomGradientPanel5.TabIndex = 2;
             // 
             // guna2DataGridView1
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
             this.guna2DataGridView1.AutoGenerateColumns = false;
             this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.guna2DataGridView1.ColumnHeadersHeight = 21;
             this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.cashierIDDataGridViewTextBoxColumn,
@@ -348,21 +370,23 @@ namespace WindowsFormsApp3
             this.passwordDataGridViewTextBoxColumn,
             this.remainingLoginAttemptsDataGridViewTextBoxColumn});
             this.guna2DataGridView1.DataSource = this.cashierBindingSource;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle15;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(28, 18);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(42, 28);
+            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
+            this.guna2DataGridView1.RowHeadersWidth = 62;
             this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1290, 265);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(1935, 408);
             this.guna2DataGridView1.TabIndex = 0;
             this.guna2DataGridView1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -391,36 +415,42 @@ namespace WindowsFormsApp3
             // 
             this.cashierIDDataGridViewTextBoxColumn.DataPropertyName = "CashierID";
             this.cashierIDDataGridViewTextBoxColumn.HeaderText = "CashierID";
+            this.cashierIDDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.cashierIDDataGridViewTextBoxColumn.Name = "cashierIDDataGridViewTextBoxColumn";
             // 
             // nameDataGridViewTextBoxColumn
             // 
             this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
             this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
+            this.nameDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
             // 
             // nicDataGridViewTextBoxColumn
             // 
             this.nicDataGridViewTextBoxColumn.DataPropertyName = "Nic";
             this.nicDataGridViewTextBoxColumn.HeaderText = "Nic";
+            this.nicDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.nicDataGridViewTextBoxColumn.Name = "nicDataGridViewTextBoxColumn";
             // 
             // usernameDataGridViewTextBoxColumn
             // 
             this.usernameDataGridViewTextBoxColumn.DataPropertyName = "Username";
             this.usernameDataGridViewTextBoxColumn.HeaderText = "Username";
+            this.usernameDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.usernameDataGridViewTextBoxColumn.Name = "usernameDataGridViewTextBoxColumn";
             // 
             // passwordDataGridViewTextBoxColumn
             // 
             this.passwordDataGridViewTextBoxColumn.DataPropertyName = "Password";
             this.passwordDataGridViewTextBoxColumn.HeaderText = "Password";
+            this.passwordDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.passwordDataGridViewTextBoxColumn.Name = "passwordDataGridViewTextBoxColumn";
             // 
             // remainingLoginAttemptsDataGridViewTextBoxColumn
             // 
             this.remainingLoginAttemptsDataGridViewTextBoxColumn.DataPropertyName = "RemainingLoginAttempts";
             this.remainingLoginAttemptsDataGridViewTextBoxColumn.HeaderText = "RemainingLoginAttempts";
+            this.remainingLoginAttemptsDataGridViewTextBoxColumn.MinimumWidth = 8;
             this.remainingLoginAttemptsDataGridViewTextBoxColumn.Name = "remainingLoginAttemptsDataGridViewTextBoxColumn";
             // 
             // cashierBindingSource
@@ -439,13 +469,14 @@ namespace WindowsFormsApp3
             // 
             // AdminCashierMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.ClientSize = new System.Drawing.Size(1381, 827);
+            this.ClientSize = new System.Drawing.Size(2072, 1272);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.guna2CustomGradientPanel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "AdminCashierMain";
             this.Text = "FoodDetailsProject";

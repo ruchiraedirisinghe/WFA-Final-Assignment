@@ -31,7 +31,7 @@ namespace WindowsFormsApp3
             {
                 try 
                 {
-                    SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ruchii-ROG-STRIX\Downloads\WindowsFormsApp3\ss.mdf;Integrated Security=True;Connect Timeout=30");
+                    SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Nimna Niwarthana\Downloads\WindowsFormsApp3\WindowsFormsApp3\ss.mdf;Integrated Security=True;Connect Timeout=30");
                     SqlDataAdapter sda = new SqlDataAdapter("SELECT COUNT(*) FROM Cashier WHERE Username='" + tbcashierusername.Text + "' AND Password='" + tbcashierpassword.Text + "'", connection);
                     DataTable dt = new DataTable();
                     sda.Fill(dt);

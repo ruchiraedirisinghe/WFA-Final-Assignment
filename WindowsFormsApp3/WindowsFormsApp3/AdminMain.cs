@@ -32,9 +32,9 @@ namespace WindowsFormsApp3
 
         private void gunaGradientButton2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            WelcomeForm welcomeForm = new WelcomeForm();
-            welcomeForm.Show();
+            this.Dispose();
+            AdminLoginForm adminLoginForm = new AdminLoginForm();
+            adminLoginForm.Show();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -44,9 +44,9 @@ namespace WindowsFormsApp3
 
         private void btCASHIERSET_Click(object sender, EventArgs e)
         {
-            AdminFoodItemMain adminCashierSettings = new AdminFoodItemMain();
-            this.Hide();
-            adminCashierSettings.Show();
+            AdminCashierMain adminCashierMain = new AdminCashierMain();
+            this.Dispose();
+            adminCashierMain.Show();
         }
 
         private void btREVSET_Click(object sender, EventArgs e)

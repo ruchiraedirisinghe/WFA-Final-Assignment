@@ -24,6 +24,10 @@ namespace WindowsFormsApp3
 
         private void guna2GradientTileButton1_Click(object sender, EventArgs e)
         {
+            CashierLoginForm cashierLoginForm = new CashierLoginForm();
+
+            this.Dispose();
+            cashierLoginForm.Show();
 
         }
 

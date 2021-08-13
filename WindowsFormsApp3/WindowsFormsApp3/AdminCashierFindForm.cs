@@ -16,5 +16,10 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
+
+        private void bt_CashierLogout_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }
