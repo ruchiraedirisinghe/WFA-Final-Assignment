@@ -62,5 +62,10 @@ namespace WindowsFormsApp3
             this.Hide();
             adminItemSettings.Show();
         }
+
+        private void AdminMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

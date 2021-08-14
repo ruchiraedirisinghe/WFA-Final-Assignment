@@ -21,7 +21,7 @@ namespace WindowsFormsApp3
 
         private void gunaAdvenceButton1_Click(object sender, EventArgs e)
         {
-            if (txt_AdminName.Text == "admin" && txt_AdminPw.Text == "admin")
+            if ((txt_AdminName.Text == "admin" && txt_AdminPw.Text == "admin")||(txt_AdminName.Text == "ruchira" && txt_AdminPw.Text == "12345"))
                 {
                     AdminMain adminmainform = new AdminMain();
                     this.Hide();
