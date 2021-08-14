@@ -23,10 +23,10 @@ namespace WindowsFormsApp3
         {
             if (txt_AdminName.Text == "admin" && txt_AdminPw.Text == "admin")
                 {
-                    AdminMain adminmainform = new AdminMain();
-                    this.Hide();
-                    adminmainform.Show();
-                }
+                AdminMain adminmainform = new AdminMain();
+                this.Hide();
+                adminmainform.Show();
+            }
 
             else
             {
