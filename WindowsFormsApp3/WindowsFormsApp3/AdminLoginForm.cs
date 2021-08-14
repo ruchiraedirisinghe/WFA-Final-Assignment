@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp3
-{ 
-    
+{
+
     public partial class AdminLoginForm : Form
     {
-        
+
         public AdminLoginForm()
         {
             InitializeComponent();
@@ -21,7 +21,7 @@ namespace WindowsFormsApp3
 
         private void gunaAdvenceButton1_Click(object sender, EventArgs e)
         {
-            if (txt_AdminName.Text == "admin" && txt_AdminPw.Text == "admin")
+            if ((txt_AdminName.Text == "admin" && txt_AdminPw.Text == "admin")||(txt_AdminName.Text == "hasan" && txt_AdminPw.Text == "aiaa"))
                 {
                     AdminMain adminmainform = new AdminMain();
                     this.Hide();
