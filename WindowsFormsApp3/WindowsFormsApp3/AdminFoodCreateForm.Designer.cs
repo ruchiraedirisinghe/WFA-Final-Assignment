@@ -82,11 +82,11 @@ namespace WindowsFormsApp3
             // 
             this.gunaLabel8.AutoSize = true;
             this.gunaLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel8.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel8.ForeColor = System.Drawing.Color.Green;
             this.gunaLabel8.Location = new System.Drawing.Point(162, 253);
             this.gunaLabel8.Name = "gunaLabel8";
-            this.gunaLabel8.Size = new System.Drawing.Size(428, 28);
+            this.gunaLabel8.Size = new System.Drawing.Size(418, 20);
             this.gunaLabel8.TabIndex = 65;
             this.gunaLabel8.Text = "Create Message Box - Cashier Creation Successful";
             // 
@@ -94,10 +94,10 @@ namespace WindowsFormsApp3
             // 
             this.gunaLabel24.AutoSize = true;
             this.gunaLabel24.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel24.Font = new System.Drawing.Font("Poppins Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel24.Location = new System.Drawing.Point(71, 121);
             this.gunaLabel24.Name = "gunaLabel24";
-            this.gunaLabel24.Size = new System.Drawing.Size(26, 34);
+            this.gunaLabel24.Size = new System.Drawing.Size(18, 24);
             this.gunaLabel24.TabIndex = 58;
             this.gunaLabel24.Text = "*";
             // 
@@ -105,10 +105,10 @@ namespace WindowsFormsApp3
             // 
             this.gunaLabel25.AutoSize = true;
             this.gunaLabel25.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel25.Font = new System.Drawing.Font("Poppins Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel25.Location = new System.Drawing.Point(71, 78);
             this.gunaLabel25.Name = "gunaLabel25";
-            this.gunaLabel25.Size = new System.Drawing.Size(26, 34);
+            this.gunaLabel25.Size = new System.Drawing.Size(18, 24);
             this.gunaLabel25.TabIndex = 57;
             this.gunaLabel25.Text = "*";
             // 
@@ -116,10 +116,10 @@ namespace WindowsFormsApp3
             // 
             this.gunaLabel26.AutoSize = true;
             this.gunaLabel26.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel26.Font = new System.Drawing.Font("Poppins Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel26.Location = new System.Drawing.Point(71, 38);
             this.gunaLabel26.Name = "gunaLabel26";
-            this.gunaLabel26.Size = new System.Drawing.Size(26, 34);
+            this.gunaLabel26.Size = new System.Drawing.Size(18, 24);
             this.gunaLabel26.TabIndex = 56;
             this.gunaLabel26.Text = "*";
             // 
@@ -171,10 +171,10 @@ namespace WindowsFormsApp3
             // 
             this.gunaLabel3.AutoSize = true;
             this.gunaLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel3.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel3.Location = new System.Drawing.Point(103, 121);
             this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(214, 34);
+            this.gunaLabel3.Size = new System.Drawing.Size(211, 24);
             this.gunaLabel3.TabIndex = 22;
             this.gunaLabel3.Text = "Enter Food Unit Price";
             // 
@@ -182,10 +182,10 @@ namespace WindowsFormsApp3
             // 
             this.gunaLabel2.AutoSize = true;
             this.gunaLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel2.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel2.Location = new System.Drawing.Point(103, 78);
             this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(180, 34);
+            this.gunaLabel2.Size = new System.Drawing.Size(176, 24);
             this.gunaLabel2.TabIndex = 20;
             this.gunaLabel2.Text = "Enter Food Name";
             // 
@@ -215,10 +215,10 @@ namespace WindowsFormsApp3
             // 
             this.gunaLabel1.AutoSize = true;
             this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel1.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel1.Location = new System.Drawing.Point(103, 38);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(141, 34);
+            this.gunaLabel1.Size = new System.Drawing.Size(140, 24);
             this.gunaLabel1.TabIndex = 18;
             this.gunaLabel1.Text = "Enter Food ID";
             // 
@@ -229,7 +229,7 @@ namespace WindowsFormsApp3
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
             this.guna2Button1.CustomImages.Parent = this.guna2Button1;
             this.guna2Button1.FillColor = System.Drawing.Color.MidnightBlue;
-            this.guna2Button1.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
+            this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Location = new System.Drawing.Point(292, 185);
@@ -238,6 +238,7 @@ namespace WindowsFormsApp3
             this.guna2Button1.Size = new System.Drawing.Size(156, 47);
             this.guna2Button1.TabIndex = 17;
             this.guna2Button1.Text = "ENTER";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2CustomGradientPanel2
             // 
@@ -264,7 +265,7 @@ namespace WindowsFormsApp3
             this.bt_CashierLogout.CustomImages.Parent = this.bt_CashierLogout;
             this.bt_CashierLogout.FillColor = System.Drawing.Color.Blue;
             this.bt_CashierLogout.FillColor2 = System.Drawing.Color.Red;
-            this.bt_CashierLogout.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_CashierLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_CashierLogout.ForeColor = System.Drawing.Color.White;
             this.bt_CashierLogout.HoverState.Parent = this.bt_CashierLogout;
             this.bt_CashierLogout.Location = new System.Drawing.Point(778, 23);
@@ -278,11 +279,11 @@ namespace WindowsFormsApp3
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(155, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(563, 23);
+            this.label2.Size = new System.Drawing.Size(577, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "2021 All Rights Reserved.  Sample Software. Group Assignment - C# - Batch of 20.3" +
     "";
@@ -291,11 +292,11 @@ namespace WindowsFormsApp3
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Poppins", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(153, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 42);
+            this.label1.Size = new System.Drawing.Size(194, 29);
             this.label1.TabIndex = 3;
             this.label1.Text = "SMART MEALS";
             // 
@@ -339,11 +340,11 @@ namespace WindowsFormsApp3
             // 
             this.gunaLabel18.AutoSize = true;
             this.gunaLabel18.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel18.Font = new System.Drawing.Font("Poppins Black", 20F, System.Drawing.FontStyle.Bold);
+            this.gunaLabel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.gunaLabel18.ForeColor = System.Drawing.Color.Navy;
             this.gunaLabel18.Location = new System.Drawing.Point(349, 22);
             this.gunaLabel18.Name = "gunaLabel18";
-            this.gunaLabel18.Size = new System.Drawing.Size(226, 48);
+            this.gunaLabel18.Size = new System.Drawing.Size(241, 31);
             this.gunaLabel18.TabIndex = 18;
             this.gunaLabel18.Text = "CREATE FOODS";
             // 
@@ -354,7 +355,7 @@ namespace WindowsFormsApp3
             this.guna2Button7.CheckedState.Parent = this.guna2Button7;
             this.guna2Button7.CustomImages.Parent = this.guna2Button7;
             this.guna2Button7.FillColor = System.Drawing.Color.MidnightBlue;
-            this.guna2Button7.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
+            this.guna2Button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.guna2Button7.ForeColor = System.Drawing.Color.White;
             this.guna2Button7.HoverState.Parent = this.guna2Button7;
             this.guna2Button7.Location = new System.Drawing.Point(726, 22);
