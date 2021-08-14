@@ -19,7 +19,7 @@ namespace WindowsFormsApp3
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
