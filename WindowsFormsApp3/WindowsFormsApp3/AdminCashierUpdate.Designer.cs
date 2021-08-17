@@ -39,37 +39,37 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_cashenter_main = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel5 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel38 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel8 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_up_cash7 = new Guna.UI2.WinForms.Guna2Button();
             this.gunaLabel37 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_up_cash6 = new Guna.UI2.WinForms.Guna2Button();
             this.gunaLabel36 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel35 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel34 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel33 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_up_cashpw = new Guna.UI2.WinForms.Guna2TextBox();
             this.gunaLabel41 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_up_cashun = new Guna.UI2.WinForms.Guna2TextBox();
             this.gunaLabel40 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox9 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btn_up_cash5 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_up_cash4 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_up_cash3 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_up_cash2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_up_cash1 = new Guna.UI2.WinForms.Guna2Button();
+            this.txt_up_cashtp = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_up_cashadd = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_up_cashnic = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_up_cashname = new Guna.UI2.WinForms.Guna2TextBox();
             this.gunaLabel42 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel43 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel45 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel46 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel47 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_up_cashid = new Guna.UI2.WinForms.Guna2TextBox();
             this.gunaLabel21 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel22 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel24 = new Guna.UI.WinForms.GunaLabel();
@@ -90,7 +90,7 @@ namespace WindowsFormsApp3
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_cashenter = new Guna.UI2.WinForms.Guna2TextBox();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
@@ -107,11 +107,10 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(6, 6);
-            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(4, 4);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.ShadowDecoration.Parent = this.guna2CustomGradientPanel1;
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1418, 135);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(945, 88);
             this.guna2CustomGradientPanel1.TabIndex = 4;
             // 
             // gunaLabel18
@@ -120,10 +119,9 @@ namespace WindowsFormsApp3
             this.gunaLabel18.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel18.Font = new System.Drawing.Font("Poppins Black", 20F, System.Drawing.FontStyle.Bold);
             this.gunaLabel18.ForeColor = System.Drawing.Color.Navy;
-            this.gunaLabel18.Location = new System.Drawing.Point(530, 35);
-            this.gunaLabel18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel18.Location = new System.Drawing.Point(353, 23);
             this.gunaLabel18.Name = "gunaLabel18";
-            this.gunaLabel18.Size = new System.Drawing.Size(378, 70);
+            this.gunaLabel18.Size = new System.Drawing.Size(255, 48);
             this.gunaLabel18.TabIndex = 18;
             this.gunaLabel18.Text = "UPDATE CASHIER";
             // 
@@ -138,11 +136,10 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.Black;
             this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(6, 923);
-            this.guna2CustomGradientPanel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(4, 600);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.ShadowDecoration.Parent = this.guna2CustomGradientPanel2;
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1418, 137);
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(945, 89);
             this.guna2CustomGradientPanel2.TabIndex = 5;
             // 
             // bt_CashierLogout
@@ -156,11 +153,10 @@ namespace WindowsFormsApp3
             this.bt_CashierLogout.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_CashierLogout.ForeColor = System.Drawing.Color.White;
             this.bt_CashierLogout.HoverState.Parent = this.bt_CashierLogout;
-            this.bt_CashierLogout.Location = new System.Drawing.Point(1155, 40);
-            this.bt_CashierLogout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.bt_CashierLogout.Location = new System.Drawing.Point(770, 26);
             this.bt_CashierLogout.Name = "bt_CashierLogout";
             this.bt_CashierLogout.ShadowDecoration.Parent = this.bt_CashierLogout;
-            this.bt_CashierLogout.Size = new System.Drawing.Size(202, 72);
+            this.bt_CashierLogout.Size = new System.Drawing.Size(135, 47);
             this.bt_CashierLogout.TabIndex = 6;
             this.bt_CashierLogout.Text = "CANCEL";
             this.bt_CashierLogout.Click += new System.EventHandler(this.bt_CashierLogout_Click);
@@ -171,10 +167,9 @@ namespace WindowsFormsApp3
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(232, 72);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(155, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(852, 36);
+            this.label2.Size = new System.Drawing.Size(563, 23);
             this.label2.TabIndex = 4;
             this.label2.Text = "2021 All Rights Reserved.  Sample Software. Group Assignment - C# - Batch of 20.3" +
     "";
@@ -185,10 +180,9 @@ namespace WindowsFormsApp3
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Poppins", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(230, 23);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(153, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(280, 64);
+            this.label1.Size = new System.Drawing.Size(187, 42);
             this.label1.TabIndex = 3;
             this.label1.Text = "SMART MEALS";
             // 
@@ -197,11 +191,10 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel3.BorderRadius = 15;
             this.guna2CustomGradientPanel3.Controls.Add(this.pictureBox1);
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(94, 14);
-            this.guna2CustomGradientPanel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(63, 9);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
             this.guna2CustomGradientPanel3.ShadowDecoration.Parent = this.guna2CustomGradientPanel3;
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(108, 100);
+            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(72, 65);
             this.guna2CustomGradientPanel3.TabIndex = 2;
             // 
             // pictureBox1
@@ -209,33 +202,32 @@ namespace WindowsFormsApp3
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(4, 11);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 7);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(99, 82);
+            this.pictureBox1.Size = new System.Drawing.Size(66, 53);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // guna2CustomGradientPanel4
             // 
             this.guna2CustomGradientPanel4.BorderRadius = 50;
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button1);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_cashenter_main);
             this.guna2CustomGradientPanel4.Controls.Add(this.guna2CustomGradientPanel5);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button5);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button6);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button4);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button3);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button2);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2TextBox8);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2TextBox9);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2TextBox5);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2TextBox3);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_up_cash5);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_up_cash4);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_up_cash3);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_up_cash2);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_up_cash1);
+            this.guna2CustomGradientPanel4.Controls.Add(this.txt_up_cashtp);
+            this.guna2CustomGradientPanel4.Controls.Add(this.txt_up_cashadd);
+            this.guna2CustomGradientPanel4.Controls.Add(this.txt_up_cashnic);
+            this.guna2CustomGradientPanel4.Controls.Add(this.txt_up_cashname);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel42);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel43);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel45);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel46);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel47);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2TextBox2);
+            this.guna2CustomGradientPanel4.Controls.Add(this.txt_up_cashid);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel21);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel22);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel24);
@@ -256,32 +248,30 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel4);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel3);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel2);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2TextBox1);
+            this.guna2CustomGradientPanel4.Controls.Add(this.txt_cashenter);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel1);
-            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(18, 177);
-            this.guna2CustomGradientPanel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(12, 115);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
             this.guna2CustomGradientPanel4.ShadowDecoration.Parent = this.guna2CustomGradientPanel4;
-            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(1382, 709);
+            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(921, 461);
             this.guna2CustomGradientPanel4.TabIndex = 6;
             // 
-            // guna2Button1
+            // btn_cashenter_main
             // 
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderRadius = 20;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.Indigo;
-            this.guna2Button1.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(1040, 42);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(231, 66);
-            this.guna2Button1.TabIndex = 82;
-            this.guna2Button1.Text = "ENTER";
+            this.btn_cashenter_main.BackColor = System.Drawing.Color.Transparent;
+            this.btn_cashenter_main.BorderRadius = 20;
+            this.btn_cashenter_main.CheckedState.Parent = this.btn_cashenter_main;
+            this.btn_cashenter_main.CustomImages.Parent = this.btn_cashenter_main;
+            this.btn_cashenter_main.FillColor = System.Drawing.Color.Indigo;
+            this.btn_cashenter_main.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
+            this.btn_cashenter_main.ForeColor = System.Drawing.Color.White;
+            this.btn_cashenter_main.HoverState.Parent = this.btn_cashenter_main;
+            this.btn_cashenter_main.Location = new System.Drawing.Point(693, 27);
+            this.btn_cashenter_main.Name = "btn_cashenter_main";
+            this.btn_cashenter_main.ShadowDecoration.Parent = this.btn_cashenter_main;
+            this.btn_cashenter_main.Size = new System.Drawing.Size(154, 43);
+            this.btn_cashenter_main.TabIndex = 82;
+            this.btn_cashenter_main.Text = "ENTER";
             // 
             // guna2CustomGradientPanel5
             // 
@@ -290,26 +280,25 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel5.Controls.Add(this.gunaLabel5);
             this.guna2CustomGradientPanel5.Controls.Add(this.gunaLabel38);
             this.guna2CustomGradientPanel5.Controls.Add(this.gunaLabel8);
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2Button10);
+            this.guna2CustomGradientPanel5.Controls.Add(this.btn_up_cash7);
             this.guna2CustomGradientPanel5.Controls.Add(this.gunaLabel37);
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2Button11);
+            this.guna2CustomGradientPanel5.Controls.Add(this.btn_up_cash6);
             this.guna2CustomGradientPanel5.Controls.Add(this.gunaLabel36);
             this.guna2CustomGradientPanel5.Controls.Add(this.gunaLabel35);
             this.guna2CustomGradientPanel5.Controls.Add(this.gunaLabel34);
             this.guna2CustomGradientPanel5.Controls.Add(this.gunaLabel33);
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2TextBox6);
+            this.guna2CustomGradientPanel5.Controls.Add(this.txt_up_cashpw);
             this.guna2CustomGradientPanel5.Controls.Add(this.gunaLabel41);
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2TextBox7);
+            this.guna2CustomGradientPanel5.Controls.Add(this.txt_up_cashun);
             this.guna2CustomGradientPanel5.Controls.Add(this.gunaLabel40);
             this.guna2CustomGradientPanel5.FillColor = System.Drawing.Color.Navy;
             this.guna2CustomGradientPanel5.FillColor2 = System.Drawing.Color.Navy;
             this.guna2CustomGradientPanel5.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.guna2CustomGradientPanel5.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.guna2CustomGradientPanel5.Location = new System.Drawing.Point(36, 486);
-            this.guna2CustomGradientPanel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2CustomGradientPanel5.Location = new System.Drawing.Point(24, 316);
             this.guna2CustomGradientPanel5.Name = "guna2CustomGradientPanel5";
             this.guna2CustomGradientPanel5.ShadowDecoration.Parent = this.guna2CustomGradientPanel5;
-            this.guna2CustomGradientPanel5.Size = new System.Drawing.Size(1322, 166);
+            this.guna2CustomGradientPanel5.Size = new System.Drawing.Size(881, 108);
             this.guna2CustomGradientPanel5.TabIndex = 19;
             // 
             // gunaLabel5
@@ -318,10 +307,9 @@ namespace WindowsFormsApp3
             this.gunaLabel5.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel5.Font = new System.Drawing.Font("Poppins ExtraBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel5.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel5.Location = new System.Drawing.Point(44, 89);
-            this.gunaLabel5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel5.Location = new System.Drawing.Point(29, 58);
             this.gunaLabel5.Name = "gunaLabel5";
-            this.gunaLabel5.Size = new System.Drawing.Size(30, 40);
+            this.gunaLabel5.Size = new System.Drawing.Size(20, 26);
             this.gunaLabel5.TabIndex = 81;
             this.gunaLabel5.Text = "*";
             // 
@@ -331,10 +319,9 @@ namespace WindowsFormsApp3
             this.gunaLabel38.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel38.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
             this.gunaLabel38.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel38.Location = new System.Drawing.Point(86, 37);
-            this.gunaLabel38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel38.Location = new System.Drawing.Point(57, 24);
             this.gunaLabel38.Name = "gunaLabel38";
-            this.gunaLabel38.Size = new System.Drawing.Size(227, 39);
+            this.gunaLabel38.Size = new System.Drawing.Size(153, 26);
             this.gunaLabel38.TabIndex = 44;
             this.gunaLabel38.Text = "Cashier Username";
             // 
@@ -344,31 +331,29 @@ namespace WindowsFormsApp3
             this.gunaLabel8.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel8.Font = new System.Drawing.Font("Poppins ExtraBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel8.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel8.Location = new System.Drawing.Point(44, 37);
-            this.gunaLabel8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel8.Location = new System.Drawing.Point(29, 24);
             this.gunaLabel8.Name = "gunaLabel8";
-            this.gunaLabel8.Size = new System.Drawing.Size(30, 40);
+            this.gunaLabel8.Size = new System.Drawing.Size(20, 26);
             this.gunaLabel8.TabIndex = 80;
             this.gunaLabel8.Text = "*";
             // 
-            // guna2Button10
+            // btn_up_cash7
             // 
-            this.guna2Button10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button10.BorderRadius = 10;
-            this.guna2Button10.CheckedState.Parent = this.guna2Button10;
-            this.guna2Button10.CustomImages.Parent = this.guna2Button10;
-            this.guna2Button10.FillColor = System.Drawing.Color.ForestGreen;
-            this.guna2Button10.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2Button10.ForeColor = System.Drawing.Color.White;
-            this.guna2Button10.HoverState.Parent = this.guna2Button10;
-            this.guna2Button10.Location = new System.Drawing.Point(1107, 89);
-            this.guna2Button10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.ShadowDecoration.Parent = this.guna2Button10;
-            this.guna2Button10.Size = new System.Drawing.Size(162, 40);
-            this.guna2Button10.TabIndex = 81;
-            this.guna2Button10.Text = "UPDATE";
-            this.guna2Button10.Click += new System.EventHandler(this.guna2Button10_Click);
+            this.btn_up_cash7.BackColor = System.Drawing.Color.Transparent;
+            this.btn_up_cash7.BorderRadius = 10;
+            this.btn_up_cash7.CheckedState.Parent = this.btn_up_cash7;
+            this.btn_up_cash7.CustomImages.Parent = this.btn_up_cash7;
+            this.btn_up_cash7.FillColor = System.Drawing.Color.ForestGreen;
+            this.btn_up_cash7.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
+            this.btn_up_cash7.ForeColor = System.Drawing.Color.White;
+            this.btn_up_cash7.HoverState.Parent = this.btn_up_cash7;
+            this.btn_up_cash7.Location = new System.Drawing.Point(738, 58);
+            this.btn_up_cash7.Name = "btn_up_cash7";
+            this.btn_up_cash7.ShadowDecoration.Parent = this.btn_up_cash7;
+            this.btn_up_cash7.Size = new System.Drawing.Size(108, 26);
+            this.btn_up_cash7.TabIndex = 81;
+            this.btn_up_cash7.Text = "UPDATE";
+            this.btn_up_cash7.Click += new System.EventHandler(this.guna2Button10_Click);
             // 
             // gunaLabel37
             // 
@@ -376,31 +361,29 @@ namespace WindowsFormsApp3
             this.gunaLabel37.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel37.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
             this.gunaLabel37.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel37.Location = new System.Drawing.Point(86, 86);
-            this.gunaLabel37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel37.Location = new System.Drawing.Point(57, 56);
             this.gunaLabel37.Name = "gunaLabel37";
-            this.gunaLabel37.Size = new System.Drawing.Size(219, 39);
+            this.gunaLabel37.Size = new System.Drawing.Size(149, 26);
             this.gunaLabel37.TabIndex = 45;
             this.gunaLabel37.Text = "Cashier Password";
             // 
-            // guna2Button11
+            // btn_up_cash6
             // 
-            this.guna2Button11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button11.BorderRadius = 10;
-            this.guna2Button11.CheckedState.Parent = this.guna2Button11;
-            this.guna2Button11.CustomImages.Parent = this.guna2Button11;
-            this.guna2Button11.FillColor = System.Drawing.Color.ForestGreen;
-            this.guna2Button11.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2Button11.ForeColor = System.Drawing.Color.White;
-            this.guna2Button11.HoverState.Parent = this.guna2Button11;
-            this.guna2Button11.Location = new System.Drawing.Point(1107, 40);
-            this.guna2Button11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.ShadowDecoration.Parent = this.guna2Button11;
-            this.guna2Button11.Size = new System.Drawing.Size(162, 40);
-            this.guna2Button11.TabIndex = 80;
-            this.guna2Button11.Text = "UPDATE";
-            this.guna2Button11.Click += new System.EventHandler(this.guna2Button11_Click);
+            this.btn_up_cash6.BackColor = System.Drawing.Color.Transparent;
+            this.btn_up_cash6.BorderRadius = 10;
+            this.btn_up_cash6.CheckedState.Parent = this.btn_up_cash6;
+            this.btn_up_cash6.CustomImages.Parent = this.btn_up_cash6;
+            this.btn_up_cash6.FillColor = System.Drawing.Color.ForestGreen;
+            this.btn_up_cash6.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
+            this.btn_up_cash6.ForeColor = System.Drawing.Color.White;
+            this.btn_up_cash6.HoverState.Parent = this.btn_up_cash6;
+            this.btn_up_cash6.Location = new System.Drawing.Point(738, 26);
+            this.btn_up_cash6.Name = "btn_up_cash6";
+            this.btn_up_cash6.ShadowDecoration.Parent = this.btn_up_cash6;
+            this.btn_up_cash6.Size = new System.Drawing.Size(108, 26);
+            this.btn_up_cash6.TabIndex = 80;
+            this.btn_up_cash6.Text = "UPDATE";
+            this.btn_up_cash6.Click += new System.EventHandler(this.guna2Button11_Click);
             // 
             // gunaLabel36
             // 
@@ -408,10 +391,9 @@ namespace WindowsFormsApp3
             this.gunaLabel36.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel36.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
             this.gunaLabel36.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel36.Location = new System.Drawing.Point(411, 40);
-            this.gunaLabel36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel36.Location = new System.Drawing.Point(274, 26);
             this.gunaLabel36.Name = "gunaLabel36";
-            this.gunaLabel36.Size = new System.Drawing.Size(30, 39);
+            this.gunaLabel36.Size = new System.Drawing.Size(21, 26);
             this.gunaLabel36.TabIndex = 46;
             this.gunaLabel36.Text = "-";
             // 
@@ -421,10 +403,9 @@ namespace WindowsFormsApp3
             this.gunaLabel35.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel35.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
             this.gunaLabel35.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel35.Location = new System.Drawing.Point(411, 91);
-            this.gunaLabel35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel35.Location = new System.Drawing.Point(274, 59);
             this.gunaLabel35.Name = "gunaLabel35";
-            this.gunaLabel35.Size = new System.Drawing.Size(30, 39);
+            this.gunaLabel35.Size = new System.Drawing.Size(21, 26);
             this.gunaLabel35.TabIndex = 47;
             this.gunaLabel35.Text = "-";
             // 
@@ -434,10 +415,9 @@ namespace WindowsFormsApp3
             this.gunaLabel34.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel34.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
             this.gunaLabel34.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel34.Location = new System.Drawing.Point(452, 40);
-            this.gunaLabel34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel34.Location = new System.Drawing.Point(301, 26);
             this.gunaLabel34.Name = "gunaLabel34";
-            this.gunaLabel34.Size = new System.Drawing.Size(204, 39);
+            this.gunaLabel34.Size = new System.Drawing.Size(148, 26);
             this.gunaLabel34.TabIndex = 48;
             this.gunaLabel34.Text = "*****************";
             // 
@@ -447,35 +427,34 @@ namespace WindowsFormsApp3
             this.gunaLabel33.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel33.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
             this.gunaLabel33.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel33.Location = new System.Drawing.Point(452, 91);
-            this.gunaLabel33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel33.Location = new System.Drawing.Point(301, 59);
             this.gunaLabel33.Name = "gunaLabel33";
-            this.gunaLabel33.Size = new System.Drawing.Size(204, 39);
+            this.gunaLabel33.Size = new System.Drawing.Size(148, 26);
             this.gunaLabel33.TabIndex = 49;
             this.gunaLabel33.Text = "*****************";
             // 
-            // guna2TextBox6
+            // txt_up_cashpw
             // 
-            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox6.DefaultText = "";
-            this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.DisabledState.Parent = this.guna2TextBox6;
-            this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.FocusedState.Parent = this.guna2TextBox6;
-            this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.HoverState.Parent = this.guna2TextBox6;
-            this.guna2TextBox6.Location = new System.Drawing.Point(734, 89);
-            this.guna2TextBox6.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.guna2TextBox6.Name = "guna2TextBox6";
-            this.guna2TextBox6.PasswordChar = '\0';
-            this.guna2TextBox6.PlaceholderText = "";
-            this.guna2TextBox6.SelectedText = "";
-            this.guna2TextBox6.ShadowDecoration.Parent = this.guna2TextBox6;
-            this.guna2TextBox6.Size = new System.Drawing.Size(348, 40);
-            this.guna2TextBox6.TabIndex = 72;
+            this.txt_up_cashpw.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_up_cashpw.DefaultText = "";
+            this.txt_up_cashpw.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_up_cashpw.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_up_cashpw.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashpw.DisabledState.Parent = this.txt_up_cashpw;
+            this.txt_up_cashpw.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashpw.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashpw.FocusedState.Parent = this.txt_up_cashpw;
+            this.txt_up_cashpw.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashpw.HoverState.Parent = this.txt_up_cashpw;
+            this.txt_up_cashpw.Location = new System.Drawing.Point(489, 58);
+            this.txt_up_cashpw.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_up_cashpw.Name = "txt_up_cashpw";
+            this.txt_up_cashpw.PasswordChar = '\0';
+            this.txt_up_cashpw.PlaceholderText = "";
+            this.txt_up_cashpw.SelectedText = "";
+            this.txt_up_cashpw.ShadowDecoration.Parent = this.txt_up_cashpw;
+            this.txt_up_cashpw.Size = new System.Drawing.Size(232, 26);
+            this.txt_up_cashpw.TabIndex = 72;
             // 
             // gunaLabel41
             // 
@@ -483,35 +462,34 @@ namespace WindowsFormsApp3
             this.gunaLabel41.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel41.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
             this.gunaLabel41.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel41.Location = new System.Drawing.Point(680, 40);
-            this.gunaLabel41.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel41.Location = new System.Drawing.Point(453, 26);
             this.gunaLabel41.Name = "gunaLabel41";
-            this.gunaLabel41.Size = new System.Drawing.Size(42, 39);
+            this.gunaLabel41.Size = new System.Drawing.Size(30, 26);
             this.gunaLabel41.TabIndex = 63;
             this.gunaLabel41.Text = "->";
             // 
-            // guna2TextBox7
+            // txt_up_cashun
             // 
-            this.guna2TextBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox7.DefaultText = "";
-            this.guna2TextBox7.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox7.DisabledState.Parent = this.guna2TextBox7;
-            this.guna2TextBox7.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox7.FocusedState.Parent = this.guna2TextBox7;
-            this.guna2TextBox7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox7.HoverState.Parent = this.guna2TextBox7;
-            this.guna2TextBox7.Location = new System.Drawing.Point(734, 40);
-            this.guna2TextBox7.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.guna2TextBox7.Name = "guna2TextBox7";
-            this.guna2TextBox7.PasswordChar = '\0';
-            this.guna2TextBox7.PlaceholderText = "";
-            this.guna2TextBox7.SelectedText = "";
-            this.guna2TextBox7.ShadowDecoration.Parent = this.guna2TextBox7;
-            this.guna2TextBox7.Size = new System.Drawing.Size(348, 40);
-            this.guna2TextBox7.TabIndex = 71;
+            this.txt_up_cashun.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_up_cashun.DefaultText = "";
+            this.txt_up_cashun.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_up_cashun.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_up_cashun.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashun.DisabledState.Parent = this.txt_up_cashun;
+            this.txt_up_cashun.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashun.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashun.FocusedState.Parent = this.txt_up_cashun;
+            this.txt_up_cashun.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashun.HoverState.Parent = this.txt_up_cashun;
+            this.txt_up_cashun.Location = new System.Drawing.Point(489, 26);
+            this.txt_up_cashun.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_up_cashun.Name = "txt_up_cashun";
+            this.txt_up_cashun.PasswordChar = '\0';
+            this.txt_up_cashun.PlaceholderText = "";
+            this.txt_up_cashun.SelectedText = "";
+            this.txt_up_cashun.ShadowDecoration.Parent = this.txt_up_cashun;
+            this.txt_up_cashun.Size = new System.Drawing.Size(232, 26);
+            this.txt_up_cashun.TabIndex = 71;
             // 
             // gunaLabel40
             // 
@@ -519,204 +497,197 @@ namespace WindowsFormsApp3
             this.gunaLabel40.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel40.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
             this.gunaLabel40.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel40.Location = new System.Drawing.Point(680, 91);
-            this.gunaLabel40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel40.Location = new System.Drawing.Point(453, 59);
             this.gunaLabel40.Name = "gunaLabel40";
-            this.gunaLabel40.Size = new System.Drawing.Size(42, 39);
+            this.gunaLabel40.Size = new System.Drawing.Size(30, 26);
             this.gunaLabel40.TabIndex = 64;
             this.gunaLabel40.Text = "->";
             // 
-            // guna2Button5
+            // btn_up_cash5
             // 
-            this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.BorderRadius = 10;
-            this.guna2Button5.CheckedState.Parent = this.guna2Button5;
-            this.guna2Button5.CustomImages.Parent = this.guna2Button5;
-            this.guna2Button5.FillColor = System.Drawing.Color.ForestGreen;
-            this.guna2Button5.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.HoverState.Parent = this.guna2Button5;
-            this.guna2Button5.Location = new System.Drawing.Point(1146, 406);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
-            this.guna2Button5.Size = new System.Drawing.Size(162, 40);
-            this.guna2Button5.TabIndex = 79;
-            this.guna2Button5.Text = "UPDATE";
+            this.btn_up_cash5.BackColor = System.Drawing.Color.Transparent;
+            this.btn_up_cash5.BorderRadius = 10;
+            this.btn_up_cash5.CheckedState.Parent = this.btn_up_cash5;
+            this.btn_up_cash5.CustomImages.Parent = this.btn_up_cash5;
+            this.btn_up_cash5.FillColor = System.Drawing.Color.ForestGreen;
+            this.btn_up_cash5.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
+            this.btn_up_cash5.ForeColor = System.Drawing.Color.White;
+            this.btn_up_cash5.HoverState.Parent = this.btn_up_cash5;
+            this.btn_up_cash5.Location = new System.Drawing.Point(764, 264);
+            this.btn_up_cash5.Name = "btn_up_cash5";
+            this.btn_up_cash5.ShadowDecoration.Parent = this.btn_up_cash5;
+            this.btn_up_cash5.Size = new System.Drawing.Size(108, 26);
+            this.btn_up_cash5.TabIndex = 79;
+            this.btn_up_cash5.Text = "UPDATE";
             // 
-            // guna2Button6
+            // btn_up_cash4
             // 
-            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.BorderRadius = 10;
-            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
-            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
-            this.guna2Button6.FillColor = System.Drawing.Color.ForestGreen;
-            this.guna2Button6.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.HoverState.Parent = this.guna2Button6;
-            this.guna2Button6.Location = new System.Drawing.Point(1146, 352);
-            this.guna2Button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
-            this.guna2Button6.Size = new System.Drawing.Size(162, 40);
-            this.guna2Button6.TabIndex = 78;
-            this.guna2Button6.Text = "UPDATE";
+            this.btn_up_cash4.BackColor = System.Drawing.Color.Transparent;
+            this.btn_up_cash4.BorderRadius = 10;
+            this.btn_up_cash4.CheckedState.Parent = this.btn_up_cash4;
+            this.btn_up_cash4.CustomImages.Parent = this.btn_up_cash4;
+            this.btn_up_cash4.FillColor = System.Drawing.Color.ForestGreen;
+            this.btn_up_cash4.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
+            this.btn_up_cash4.ForeColor = System.Drawing.Color.White;
+            this.btn_up_cash4.HoverState.Parent = this.btn_up_cash4;
+            this.btn_up_cash4.Location = new System.Drawing.Point(764, 229);
+            this.btn_up_cash4.Name = "btn_up_cash4";
+            this.btn_up_cash4.ShadowDecoration.Parent = this.btn_up_cash4;
+            this.btn_up_cash4.Size = new System.Drawing.Size(108, 26);
+            this.btn_up_cash4.TabIndex = 78;
+            this.btn_up_cash4.Text = "UPDATE";
             // 
-            // guna2Button4
+            // btn_up_cash3
             // 
-            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.BorderRadius = 10;
-            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
-            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
-            this.guna2Button4.FillColor = System.Drawing.Color.ForestGreen;
-            this.guna2Button4.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Location = new System.Drawing.Point(1146, 295);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(162, 40);
-            this.guna2Button4.TabIndex = 76;
-            this.guna2Button4.Text = "UPDATE";
+            this.btn_up_cash3.BackColor = System.Drawing.Color.Transparent;
+            this.btn_up_cash3.BorderRadius = 10;
+            this.btn_up_cash3.CheckedState.Parent = this.btn_up_cash3;
+            this.btn_up_cash3.CustomImages.Parent = this.btn_up_cash3;
+            this.btn_up_cash3.FillColor = System.Drawing.Color.ForestGreen;
+            this.btn_up_cash3.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
+            this.btn_up_cash3.ForeColor = System.Drawing.Color.White;
+            this.btn_up_cash3.HoverState.Parent = this.btn_up_cash3;
+            this.btn_up_cash3.Location = new System.Drawing.Point(764, 192);
+            this.btn_up_cash3.Name = "btn_up_cash3";
+            this.btn_up_cash3.ShadowDecoration.Parent = this.btn_up_cash3;
+            this.btn_up_cash3.Size = new System.Drawing.Size(108, 26);
+            this.btn_up_cash3.TabIndex = 76;
+            this.btn_up_cash3.Text = "UPDATE";
             // 
-            // guna2Button3
+            // btn_up_cash2
             // 
-            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.BorderRadius = 10;
-            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
-            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
-            this.guna2Button3.FillColor = System.Drawing.Color.ForestGreen;
-            this.guna2Button3.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.HoverState.Parent = this.guna2Button3;
-            this.guna2Button3.Location = new System.Drawing.Point(1146, 242);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-            this.guna2Button3.Size = new System.Drawing.Size(162, 40);
-            this.guna2Button3.TabIndex = 75;
-            this.guna2Button3.Text = "UPDATE";
+            this.btn_up_cash2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_up_cash2.BorderRadius = 10;
+            this.btn_up_cash2.CheckedState.Parent = this.btn_up_cash2;
+            this.btn_up_cash2.CustomImages.Parent = this.btn_up_cash2;
+            this.btn_up_cash2.FillColor = System.Drawing.Color.ForestGreen;
+            this.btn_up_cash2.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
+            this.btn_up_cash2.ForeColor = System.Drawing.Color.White;
+            this.btn_up_cash2.HoverState.Parent = this.btn_up_cash2;
+            this.btn_up_cash2.Location = new System.Drawing.Point(764, 157);
+            this.btn_up_cash2.Name = "btn_up_cash2";
+            this.btn_up_cash2.ShadowDecoration.Parent = this.btn_up_cash2;
+            this.btn_up_cash2.Size = new System.Drawing.Size(108, 26);
+            this.btn_up_cash2.TabIndex = 75;
+            this.btn_up_cash2.Text = "UPDATE";
             // 
-            // guna2Button2
+            // btn_up_cash1
             // 
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderRadius = 10;
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.FillColor = System.Drawing.Color.ForestGreen;
-            this.guna2Button2.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(1146, 192);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(162, 40);
-            this.guna2Button2.TabIndex = 74;
-            this.guna2Button2.Text = "UPDATE";
+            this.btn_up_cash1.BackColor = System.Drawing.Color.Transparent;
+            this.btn_up_cash1.BorderRadius = 10;
+            this.btn_up_cash1.CheckedState.Parent = this.btn_up_cash1;
+            this.btn_up_cash1.CustomImages.Parent = this.btn_up_cash1;
+            this.btn_up_cash1.FillColor = System.Drawing.Color.ForestGreen;
+            this.btn_up_cash1.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold);
+            this.btn_up_cash1.ForeColor = System.Drawing.Color.White;
+            this.btn_up_cash1.HoverState.Parent = this.btn_up_cash1;
+            this.btn_up_cash1.Location = new System.Drawing.Point(764, 125);
+            this.btn_up_cash1.Name = "btn_up_cash1";
+            this.btn_up_cash1.ShadowDecoration.Parent = this.btn_up_cash1;
+            this.btn_up_cash1.Size = new System.Drawing.Size(108, 26);
+            this.btn_up_cash1.TabIndex = 74;
+            this.btn_up_cash1.Text = "UPDATE";
             // 
-            // guna2TextBox8
+            // txt_up_cashtp
             // 
-            this.guna2TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox8.DefaultText = "";
-            this.guna2TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.DisabledState.Parent = this.guna2TextBox8;
-            this.guna2TextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.FocusedState.Parent = this.guna2TextBox8;
-            this.guna2TextBox8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.HoverState.Parent = this.guna2TextBox8;
-            this.guna2TextBox8.Location = new System.Drawing.Point(770, 403);
-            this.guna2TextBox8.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.guna2TextBox8.Name = "guna2TextBox8";
-            this.guna2TextBox8.PasswordChar = '\0';
-            this.guna2TextBox8.PlaceholderText = "";
-            this.guna2TextBox8.SelectedText = "";
-            this.guna2TextBox8.ShadowDecoration.Parent = this.guna2TextBox8;
-            this.guna2TextBox8.Size = new System.Drawing.Size(348, 40);
-            this.guna2TextBox8.TabIndex = 70;
+            this.txt_up_cashtp.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_up_cashtp.DefaultText = "";
+            this.txt_up_cashtp.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_up_cashtp.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_up_cashtp.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashtp.DisabledState.Parent = this.txt_up_cashtp;
+            this.txt_up_cashtp.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashtp.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashtp.FocusedState.Parent = this.txt_up_cashtp;
+            this.txt_up_cashtp.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashtp.HoverState.Parent = this.txt_up_cashtp;
+            this.txt_up_cashtp.Location = new System.Drawing.Point(513, 262);
+            this.txt_up_cashtp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_up_cashtp.Name = "txt_up_cashtp";
+            this.txt_up_cashtp.PasswordChar = '\0';
+            this.txt_up_cashtp.PlaceholderText = "";
+            this.txt_up_cashtp.SelectedText = "";
+            this.txt_up_cashtp.ShadowDecoration.Parent = this.txt_up_cashtp;
+            this.txt_up_cashtp.Size = new System.Drawing.Size(232, 26);
+            this.txt_up_cashtp.TabIndex = 70;
             // 
-            // guna2TextBox9
+            // txt_up_cashadd
             // 
-            this.guna2TextBox9.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox9.DefaultText = "";
-            this.guna2TextBox9.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox9.DisabledState.Parent = this.guna2TextBox9;
-            this.guna2TextBox9.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox9.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox9.FocusedState.Parent = this.guna2TextBox9;
-            this.guna2TextBox9.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox9.HoverState.Parent = this.guna2TextBox9;
-            this.guna2TextBox9.Location = new System.Drawing.Point(770, 354);
-            this.guna2TextBox9.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.guna2TextBox9.Name = "guna2TextBox9";
-            this.guna2TextBox9.PasswordChar = '\0';
-            this.guna2TextBox9.PlaceholderText = "";
-            this.guna2TextBox9.SelectedText = "";
-            this.guna2TextBox9.ShadowDecoration.Parent = this.guna2TextBox9;
-            this.guna2TextBox9.Size = new System.Drawing.Size(348, 40);
-            this.guna2TextBox9.TabIndex = 69;
+            this.txt_up_cashadd.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_up_cashadd.DefaultText = "";
+            this.txt_up_cashadd.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_up_cashadd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_up_cashadd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashadd.DisabledState.Parent = this.txt_up_cashadd;
+            this.txt_up_cashadd.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashadd.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashadd.FocusedState.Parent = this.txt_up_cashadd;
+            this.txt_up_cashadd.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashadd.HoverState.Parent = this.txt_up_cashadd;
+            this.txt_up_cashadd.Location = new System.Drawing.Point(513, 230);
+            this.txt_up_cashadd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_up_cashadd.Name = "txt_up_cashadd";
+            this.txt_up_cashadd.PasswordChar = '\0';
+            this.txt_up_cashadd.PlaceholderText = "";
+            this.txt_up_cashadd.SelectedText = "";
+            this.txt_up_cashadd.ShadowDecoration.Parent = this.txt_up_cashadd;
+            this.txt_up_cashadd.Size = new System.Drawing.Size(232, 26);
+            this.txt_up_cashadd.TabIndex = 69;
             // 
-            // guna2TextBox5
+            // txt_up_cashnic
             // 
-            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox5.DefaultText = "";
-            this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.DisabledState.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.FocusedState.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.HoverState.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.Location = new System.Drawing.Point(770, 297);
-            this.guna2TextBox5.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.guna2TextBox5.Name = "guna2TextBox5";
-            this.guna2TextBox5.PasswordChar = '\0';
-            this.guna2TextBox5.PlaceholderText = "";
-            this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.ShadowDecoration.Parent = this.guna2TextBox5;
-            this.guna2TextBox5.Size = new System.Drawing.Size(348, 40);
-            this.guna2TextBox5.TabIndex = 67;
+            this.txt_up_cashnic.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_up_cashnic.DefaultText = "";
+            this.txt_up_cashnic.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_up_cashnic.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_up_cashnic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashnic.DisabledState.Parent = this.txt_up_cashnic;
+            this.txt_up_cashnic.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashnic.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashnic.FocusedState.Parent = this.txt_up_cashnic;
+            this.txt_up_cashnic.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashnic.HoverState.Parent = this.txt_up_cashnic;
+            this.txt_up_cashnic.Location = new System.Drawing.Point(513, 193);
+            this.txt_up_cashnic.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_up_cashnic.Name = "txt_up_cashnic";
+            this.txt_up_cashnic.PasswordChar = '\0';
+            this.txt_up_cashnic.PlaceholderText = "";
+            this.txt_up_cashnic.SelectedText = "";
+            this.txt_up_cashnic.ShadowDecoration.Parent = this.txt_up_cashnic;
+            this.txt_up_cashnic.Size = new System.Drawing.Size(232, 26);
+            this.txt_up_cashnic.TabIndex = 67;
             // 
-            // guna2TextBox3
+            // txt_up_cashname
             // 
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.FocusedState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.HoverState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Location = new System.Drawing.Point(770, 242);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.ShadowDecoration.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Size = new System.Drawing.Size(348, 40);
-            this.guna2TextBox3.TabIndex = 66;
+            this.txt_up_cashname.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_up_cashname.DefaultText = "";
+            this.txt_up_cashname.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_up_cashname.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_up_cashname.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashname.DisabledState.Parent = this.txt_up_cashname;
+            this.txt_up_cashname.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashname.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashname.FocusedState.Parent = this.txt_up_cashname;
+            this.txt_up_cashname.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashname.HoverState.Parent = this.txt_up_cashname;
+            this.txt_up_cashname.Location = new System.Drawing.Point(513, 157);
+            this.txt_up_cashname.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_up_cashname.Name = "txt_up_cashname";
+            this.txt_up_cashname.PasswordChar = '\0';
+            this.txt_up_cashname.PlaceholderText = "";
+            this.txt_up_cashname.SelectedText = "";
+            this.txt_up_cashname.ShadowDecoration.Parent = this.txt_up_cashname;
+            this.txt_up_cashname.Size = new System.Drawing.Size(232, 26);
+            this.txt_up_cashname.TabIndex = 66;
             // 
             // gunaLabel42
             // 
             this.gunaLabel42.AutoSize = true;
             this.gunaLabel42.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel42.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel42.Location = new System.Drawing.Point(716, 406);
-            this.gunaLabel42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel42.Location = new System.Drawing.Point(477, 264);
             this.gunaLabel42.Name = "gunaLabel42";
-            this.gunaLabel42.Size = new System.Drawing.Size(42, 39);
+            this.gunaLabel42.Size = new System.Drawing.Size(30, 26);
             this.gunaLabel42.TabIndex = 62;
             this.gunaLabel42.Text = "->";
             // 
@@ -725,10 +696,9 @@ namespace WindowsFormsApp3
             this.gunaLabel43.AutoSize = true;
             this.gunaLabel43.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel43.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel43.Location = new System.Drawing.Point(716, 354);
-            this.gunaLabel43.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel43.Location = new System.Drawing.Point(477, 230);
             this.gunaLabel43.Name = "gunaLabel43";
-            this.gunaLabel43.Size = new System.Drawing.Size(42, 39);
+            this.gunaLabel43.Size = new System.Drawing.Size(30, 26);
             this.gunaLabel43.TabIndex = 61;
             this.gunaLabel43.Text = "->";
             // 
@@ -737,10 +707,9 @@ namespace WindowsFormsApp3
             this.gunaLabel45.AutoSize = true;
             this.gunaLabel45.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel45.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel45.Location = new System.Drawing.Point(716, 297);
-            this.gunaLabel45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel45.Location = new System.Drawing.Point(477, 193);
             this.gunaLabel45.Name = "gunaLabel45";
-            this.gunaLabel45.Size = new System.Drawing.Size(42, 39);
+            this.gunaLabel45.Size = new System.Drawing.Size(30, 26);
             this.gunaLabel45.TabIndex = 59;
             this.gunaLabel45.Text = "->";
             // 
@@ -749,10 +718,9 @@ namespace WindowsFormsApp3
             this.gunaLabel46.AutoSize = true;
             this.gunaLabel46.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel46.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel46.Location = new System.Drawing.Point(716, 245);
-            this.gunaLabel46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel46.Location = new System.Drawing.Point(477, 159);
             this.gunaLabel46.Name = "gunaLabel46";
-            this.gunaLabel46.Size = new System.Drawing.Size(42, 39);
+            this.gunaLabel46.Size = new System.Drawing.Size(30, 26);
             this.gunaLabel46.TabIndex = 58;
             this.gunaLabel46.Text = "->";
             // 
@@ -761,45 +729,43 @@ namespace WindowsFormsApp3
             this.gunaLabel47.AutoSize = true;
             this.gunaLabel47.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel47.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel47.Location = new System.Drawing.Point(716, 197);
-            this.gunaLabel47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel47.Location = new System.Drawing.Point(477, 128);
             this.gunaLabel47.Name = "gunaLabel47";
-            this.gunaLabel47.Size = new System.Drawing.Size(42, 39);
+            this.gunaLabel47.Size = new System.Drawing.Size(30, 26);
             this.gunaLabel47.TabIndex = 57;
             this.gunaLabel47.Text = "->";
             // 
-            // guna2TextBox2
+            // txt_up_cashid
             // 
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.FocusedState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Location = new System.Drawing.Point(770, 192);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(348, 40);
-            this.guna2TextBox2.TabIndex = 56;
+            this.txt_up_cashid.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_up_cashid.DefaultText = "";
+            this.txt_up_cashid.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_up_cashid.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_up_cashid.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashid.DisabledState.Parent = this.txt_up_cashid;
+            this.txt_up_cashid.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_up_cashid.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashid.FocusedState.Parent = this.txt_up_cashid;
+            this.txt_up_cashid.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_up_cashid.HoverState.Parent = this.txt_up_cashid;
+            this.txt_up_cashid.Location = new System.Drawing.Point(513, 125);
+            this.txt_up_cashid.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_up_cashid.Name = "txt_up_cashid";
+            this.txt_up_cashid.PasswordChar = '\0';
+            this.txt_up_cashid.PlaceholderText = "";
+            this.txt_up_cashid.SelectedText = "";
+            this.txt_up_cashid.ShadowDecoration.Parent = this.txt_up_cashid;
+            this.txt_up_cashid.Size = new System.Drawing.Size(232, 26);
+            this.txt_up_cashid.TabIndex = 56;
             // 
             // gunaLabel21
             // 
             this.gunaLabel21.AutoSize = true;
             this.gunaLabel21.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel21.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel21.Location = new System.Drawing.Point(72, 406);
-            this.gunaLabel21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel21.Location = new System.Drawing.Point(48, 264);
             this.gunaLabel21.Name = "gunaLabel21";
-            this.gunaLabel21.Size = new System.Drawing.Size(28, 39);
+            this.gunaLabel21.Size = new System.Drawing.Size(20, 26);
             this.gunaLabel21.TabIndex = 43;
             this.gunaLabel21.Text = "*";
             // 
@@ -808,10 +774,9 @@ namespace WindowsFormsApp3
             this.gunaLabel22.AutoSize = true;
             this.gunaLabel22.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel22.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel22.Location = new System.Drawing.Point(72, 354);
-            this.gunaLabel22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel22.Location = new System.Drawing.Point(48, 230);
             this.gunaLabel22.Name = "gunaLabel22";
-            this.gunaLabel22.Size = new System.Drawing.Size(28, 39);
+            this.gunaLabel22.Size = new System.Drawing.Size(20, 26);
             this.gunaLabel22.TabIndex = 42;
             this.gunaLabel22.Text = "*";
             // 
@@ -820,10 +785,9 @@ namespace WindowsFormsApp3
             this.gunaLabel24.AutoSize = true;
             this.gunaLabel24.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel24.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel24.Location = new System.Drawing.Point(72, 297);
-            this.gunaLabel24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel24.Location = new System.Drawing.Point(48, 193);
             this.gunaLabel24.Name = "gunaLabel24";
-            this.gunaLabel24.Size = new System.Drawing.Size(28, 39);
+            this.gunaLabel24.Size = new System.Drawing.Size(20, 26);
             this.gunaLabel24.TabIndex = 40;
             this.gunaLabel24.Text = "*";
             // 
@@ -832,10 +796,9 @@ namespace WindowsFormsApp3
             this.gunaLabel25.AutoSize = true;
             this.gunaLabel25.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel25.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel25.Location = new System.Drawing.Point(72, 245);
-            this.gunaLabel25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel25.Location = new System.Drawing.Point(48, 159);
             this.gunaLabel25.Name = "gunaLabel25";
-            this.gunaLabel25.Size = new System.Drawing.Size(28, 39);
+            this.gunaLabel25.Size = new System.Drawing.Size(20, 26);
             this.gunaLabel25.TabIndex = 39;
             this.gunaLabel25.Text = "*";
             // 
@@ -844,10 +807,9 @@ namespace WindowsFormsApp3
             this.gunaLabel26.AutoSize = true;
             this.gunaLabel26.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel26.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel26.Location = new System.Drawing.Point(72, 197);
-            this.gunaLabel26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel26.Location = new System.Drawing.Point(48, 128);
             this.gunaLabel26.Name = "gunaLabel26";
-            this.gunaLabel26.Size = new System.Drawing.Size(28, 39);
+            this.gunaLabel26.Size = new System.Drawing.Size(20, 26);
             this.gunaLabel26.TabIndex = 38;
             this.gunaLabel26.Text = "*";
             // 
@@ -856,10 +818,9 @@ namespace WindowsFormsApp3
             this.gunaLabel17.AutoSize = true;
             this.gunaLabel17.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel17.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel17.Location = new System.Drawing.Point(488, 406);
-            this.gunaLabel17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel17.Location = new System.Drawing.Point(325, 264);
             this.gunaLabel17.Name = "gunaLabel17";
-            this.gunaLabel17.Size = new System.Drawing.Size(204, 39);
+            this.gunaLabel17.Size = new System.Drawing.Size(148, 26);
             this.gunaLabel17.TabIndex = 37;
             this.gunaLabel17.Text = "*****************";
             // 
@@ -868,10 +829,9 @@ namespace WindowsFormsApp3
             this.gunaLabel19.AutoSize = true;
             this.gunaLabel19.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel19.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel19.Location = new System.Drawing.Point(447, 406);
-            this.gunaLabel19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel19.Location = new System.Drawing.Point(298, 264);
             this.gunaLabel19.Name = "gunaLabel19";
-            this.gunaLabel19.Size = new System.Drawing.Size(30, 39);
+            this.gunaLabel19.Size = new System.Drawing.Size(21, 26);
             this.gunaLabel19.TabIndex = 36;
             this.gunaLabel19.Text = "-";
             // 
@@ -880,10 +840,9 @@ namespace WindowsFormsApp3
             this.gunaLabel20.AutoSize = true;
             this.gunaLabel20.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel20.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel20.Location = new System.Drawing.Point(122, 402);
-            this.gunaLabel20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel20.Location = new System.Drawing.Point(81, 261);
             this.gunaLabel20.Name = "gunaLabel20";
-            this.gunaLabel20.Size = new System.Drawing.Size(177, 39);
+            this.gunaLabel20.Size = new System.Drawing.Size(122, 26);
             this.gunaLabel20.TabIndex = 35;
             this.gunaLabel20.Text = "Cashier TP No.";
             // 
@@ -892,10 +851,9 @@ namespace WindowsFormsApp3
             this.gunaLabel12.AutoSize = true;
             this.gunaLabel12.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel12.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel12.Location = new System.Drawing.Point(488, 354);
-            this.gunaLabel12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel12.Location = new System.Drawing.Point(325, 230);
             this.gunaLabel12.Name = "gunaLabel12";
-            this.gunaLabel12.Size = new System.Drawing.Size(204, 39);
+            this.gunaLabel12.Size = new System.Drawing.Size(148, 26);
             this.gunaLabel12.TabIndex = 34;
             this.gunaLabel12.Text = "*****************";
             // 
@@ -904,10 +862,9 @@ namespace WindowsFormsApp3
             this.gunaLabel14.AutoSize = true;
             this.gunaLabel14.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel14.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel14.Location = new System.Drawing.Point(488, 297);
-            this.gunaLabel14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel14.Location = new System.Drawing.Point(325, 193);
             this.gunaLabel14.Name = "gunaLabel14";
-            this.gunaLabel14.Size = new System.Drawing.Size(204, 39);
+            this.gunaLabel14.Size = new System.Drawing.Size(148, 26);
             this.gunaLabel14.TabIndex = 32;
             this.gunaLabel14.Text = "*****************";
             // 
@@ -916,10 +873,9 @@ namespace WindowsFormsApp3
             this.gunaLabel15.AutoSize = true;
             this.gunaLabel15.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel15.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel15.Location = new System.Drawing.Point(488, 245);
-            this.gunaLabel15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel15.Location = new System.Drawing.Point(325, 159);
             this.gunaLabel15.Name = "gunaLabel15";
-            this.gunaLabel15.Size = new System.Drawing.Size(204, 39);
+            this.gunaLabel15.Size = new System.Drawing.Size(148, 26);
             this.gunaLabel15.TabIndex = 31;
             this.gunaLabel15.Text = "*****************";
             // 
@@ -928,10 +884,9 @@ namespace WindowsFormsApp3
             this.gunaLabel16.AutoSize = true;
             this.gunaLabel16.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel16.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel16.Location = new System.Drawing.Point(488, 197);
-            this.gunaLabel16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel16.Location = new System.Drawing.Point(325, 128);
             this.gunaLabel16.Name = "gunaLabel16";
-            this.gunaLabel16.Size = new System.Drawing.Size(204, 39);
+            this.gunaLabel16.Size = new System.Drawing.Size(148, 26);
             this.gunaLabel16.TabIndex = 30;
             this.gunaLabel16.Text = "*****************";
             // 
@@ -940,10 +895,9 @@ namespace WindowsFormsApp3
             this.gunaLabel7.AutoSize = true;
             this.gunaLabel7.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel7.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel7.Location = new System.Drawing.Point(447, 354);
-            this.gunaLabel7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel7.Location = new System.Drawing.Point(298, 230);
             this.gunaLabel7.Name = "gunaLabel7";
-            this.gunaLabel7.Size = new System.Drawing.Size(30, 39);
+            this.gunaLabel7.Size = new System.Drawing.Size(21, 26);
             this.gunaLabel7.TabIndex = 29;
             this.gunaLabel7.Text = "-";
             // 
@@ -952,10 +906,9 @@ namespace WindowsFormsApp3
             this.gunaLabel9.AutoSize = true;
             this.gunaLabel9.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel9.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel9.Location = new System.Drawing.Point(447, 297);
-            this.gunaLabel9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel9.Location = new System.Drawing.Point(298, 193);
             this.gunaLabel9.Name = "gunaLabel9";
-            this.gunaLabel9.Size = new System.Drawing.Size(30, 39);
+            this.gunaLabel9.Size = new System.Drawing.Size(21, 26);
             this.gunaLabel9.TabIndex = 27;
             this.gunaLabel9.Text = "-";
             // 
@@ -964,10 +917,9 @@ namespace WindowsFormsApp3
             this.gunaLabel10.AutoSize = true;
             this.gunaLabel10.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel10.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel10.Location = new System.Drawing.Point(447, 245);
-            this.gunaLabel10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel10.Location = new System.Drawing.Point(298, 159);
             this.gunaLabel10.Name = "gunaLabel10";
-            this.gunaLabel10.Size = new System.Drawing.Size(30, 39);
+            this.gunaLabel10.Size = new System.Drawing.Size(21, 26);
             this.gunaLabel10.TabIndex = 26;
             this.gunaLabel10.Text = "-";
             // 
@@ -976,10 +928,9 @@ namespace WindowsFormsApp3
             this.gunaLabel11.AutoSize = true;
             this.gunaLabel11.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel11.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel11.Location = new System.Drawing.Point(447, 197);
-            this.gunaLabel11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel11.Location = new System.Drawing.Point(298, 128);
             this.gunaLabel11.Name = "gunaLabel11";
-            this.gunaLabel11.Size = new System.Drawing.Size(30, 39);
+            this.gunaLabel11.Size = new System.Drawing.Size(21, 26);
             this.gunaLabel11.TabIndex = 25;
             this.gunaLabel11.Text = "-";
             // 
@@ -988,10 +939,9 @@ namespace WindowsFormsApp3
             this.gunaLabel6.AutoSize = true;
             this.gunaLabel6.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel6.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel6.Location = new System.Drawing.Point(122, 349);
-            this.gunaLabel6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel6.Location = new System.Drawing.Point(81, 227);
             this.gunaLabel6.Name = "gunaLabel6";
-            this.gunaLabel6.Size = new System.Drawing.Size(203, 39);
+            this.gunaLabel6.Size = new System.Drawing.Size(137, 26);
             this.gunaLabel6.TabIndex = 24;
             this.gunaLabel6.Text = "Cashier Address";
             // 
@@ -1000,10 +950,9 @@ namespace WindowsFormsApp3
             this.gunaLabel4.AutoSize = true;
             this.gunaLabel4.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel4.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel4.Location = new System.Drawing.Point(122, 292);
-            this.gunaLabel4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel4.Location = new System.Drawing.Point(81, 190);
             this.gunaLabel4.Name = "gunaLabel4";
-            this.gunaLabel4.Size = new System.Drawing.Size(149, 39);
+            this.gunaLabel4.Size = new System.Drawing.Size(102, 26);
             this.gunaLabel4.TabIndex = 22;
             this.gunaLabel4.Text = "Cashier NIC";
             // 
@@ -1012,10 +961,9 @@ namespace WindowsFormsApp3
             this.gunaLabel3.AutoSize = true;
             this.gunaLabel3.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel3.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel3.Location = new System.Drawing.Point(122, 240);
-            this.gunaLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel3.Location = new System.Drawing.Point(81, 156);
             this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(178, 39);
+            this.gunaLabel3.Size = new System.Drawing.Size(121, 26);
             this.gunaLabel3.TabIndex = 21;
             this.gunaLabel3.Text = "Cashier Name";
             // 
@@ -1024,58 +972,55 @@ namespace WindowsFormsApp3
             this.gunaLabel2.AutoSize = true;
             this.gunaLabel2.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel2.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel2.Location = new System.Drawing.Point(122, 192);
-            this.gunaLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel2.Location = new System.Drawing.Point(81, 125);
             this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(132, 39);
+            this.gunaLabel2.Size = new System.Drawing.Size(90, 26);
             this.gunaLabel2.TabIndex = 20;
             this.gunaLabel2.Text = "Cashier ID";
             // 
-            // guna2TextBox1
+            // txt_cashenter
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(492, 52);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(488, 55);
-            this.guna2TextBox1.TabIndex = 19;
+            this.txt_cashenter.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_cashenter.DefaultText = "";
+            this.txt_cashenter.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_cashenter.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_cashenter.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_cashenter.DisabledState.Parent = this.txt_cashenter;
+            this.txt_cashenter.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_cashenter.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_cashenter.FocusedState.Parent = this.txt_cashenter;
+            this.txt_cashenter.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_cashenter.HoverState.Parent = this.txt_cashenter;
+            this.txt_cashenter.Location = new System.Drawing.Point(328, 34);
+            this.txt_cashenter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_cashenter.Name = "txt_cashenter";
+            this.txt_cashenter.PasswordChar = '\0';
+            this.txt_cashenter.PlaceholderText = "";
+            this.txt_cashenter.SelectedText = "";
+            this.txt_cashenter.ShadowDecoration.Parent = this.txt_cashenter;
+            this.txt_cashenter.Size = new System.Drawing.Size(325, 36);
+            this.txt_cashenter.TabIndex = 19;
             // 
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
             this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Font = new System.Drawing.Font("Poppins", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.Location = new System.Drawing.Point(134, 54);
-            this.gunaLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gunaLabel1.Location = new System.Drawing.Point(89, 35);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(319, 64);
+            this.gunaLabel1.Size = new System.Drawing.Size(211, 42);
             this.gunaLabel1.TabIndex = 18;
             this.gunaLabel1.Text = "Enter Cashier ID";
             // 
             // AdminCashierUpdate
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.ClientSize = new System.Drawing.Size(1428, 1063);
+            this.ClientSize = new System.Drawing.Size(952, 690);
             this.Controls.Add(this.guna2CustomGradientPanel4);
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.guna2CustomGradientPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "AdminCashierUpdate";
             this.Text = "AdminCashierUpdate";
@@ -1106,7 +1051,7 @@ namespace WindowsFormsApp3
         private Guna.UI.WinForms.GunaLabel gunaLabel16;
         private Guna.UI.WinForms.GunaLabel gunaLabel11;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txt_cashenter;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private Guna.UI.WinForms.GunaLabel gunaLabel33;
         private Guna.UI.WinForms.GunaLabel gunaLabel34;
@@ -1131,30 +1076,30 @@ namespace WindowsFormsApp3
         private Guna.UI.WinForms.GunaLabel gunaLabel4;
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button10;
-        private Guna.UI2.WinForms.Guna2Button guna2Button11;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
+        private Guna.UI2.WinForms.Guna2Button btn_up_cash7;
+        private Guna.UI2.WinForms.Guna2Button btn_up_cash6;
+        private Guna.UI2.WinForms.Guna2TextBox txt_up_cashpw;
         private Guna.UI.WinForms.GunaLabel gunaLabel41;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
+        private Guna.UI2.WinForms.Guna2TextBox txt_up_cashun;
         private Guna.UI.WinForms.GunaLabel gunaLabel40;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox8;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox9;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2Button btn_up_cash5;
+        private Guna.UI2.WinForms.Guna2Button btn_up_cash4;
+        private Guna.UI2.WinForms.Guna2Button btn_up_cash3;
+        private Guna.UI2.WinForms.Guna2Button btn_up_cash2;
+        private Guna.UI2.WinForms.Guna2Button btn_up_cash1;
+        private Guna.UI2.WinForms.Guna2TextBox txt_up_cashtp;
+        private Guna.UI2.WinForms.Guna2TextBox txt_up_cashadd;
+        private Guna.UI2.WinForms.Guna2TextBox txt_up_cashnic;
+        private Guna.UI2.WinForms.Guna2TextBox txt_up_cashname;
         private Guna.UI.WinForms.GunaLabel gunaLabel42;
         private Guna.UI.WinForms.GunaLabel gunaLabel43;
         private Guna.UI.WinForms.GunaLabel gunaLabel45;
         private Guna.UI.WinForms.GunaLabel gunaLabel46;
         private Guna.UI.WinForms.GunaLabel gunaLabel47;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox txt_up_cashid;
         private Guna.UI.WinForms.GunaLabel gunaLabel5;
         private Guna.UI.WinForms.GunaLabel gunaLabel8;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btn_cashenter_main;
         private Guna.UI2.WinForms.Guna2GradientTileButton bt_CashierLogout;
     }
 }
