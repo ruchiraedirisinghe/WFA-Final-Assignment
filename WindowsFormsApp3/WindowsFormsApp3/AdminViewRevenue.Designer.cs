@@ -60,11 +60,12 @@ namespace WindowsFormsApp3
             // 
             this.gunaLabel18.AutoSize = true;
             this.gunaLabel18.BackColor = System.Drawing.Color.Transparent;
-            this.gunaLabel18.Font = new System.Drawing.Font("Poppins Black", 20F, System.Drawing.FontStyle.Bold);
+            this.gunaLabel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.gunaLabel18.ForeColor = System.Drawing.Color.Navy;
-            this.gunaLabel18.Location = new System.Drawing.Point(545, 24);
+            this.gunaLabel18.Location = new System.Drawing.Point(727, 30);
+            this.gunaLabel18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel18.Name = "gunaLabel18";
-            this.gunaLabel18.Size = new System.Drawing.Size(224, 48);
+            this.gunaLabel18.Size = new System.Drawing.Size(293, 39);
             this.gunaLabel18.TabIndex = 17;
             this.gunaLabel18.Text = "VIEW REVENUE";
             // 
@@ -75,15 +76,17 @@ namespace WindowsFormsApp3
             this.btn_viewrev_fddetail.CheckedState.Parent = this.btn_viewrev_fddetail;
             this.btn_viewrev_fddetail.CustomImages.Parent = this.btn_viewrev_fddetail;
             this.btn_viewrev_fddetail.FillColor = System.Drawing.Color.MidnightBlue;
-            this.btn_viewrev_fddetail.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
+            this.btn_viewrev_fddetail.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.btn_viewrev_fddetail.ForeColor = System.Drawing.Color.White;
             this.btn_viewrev_fddetail.HoverState.Parent = this.btn_viewrev_fddetail;
-            this.btn_viewrev_fddetail.Location = new System.Drawing.Point(1138, 18);
+            this.btn_viewrev_fddetail.Location = new System.Drawing.Point(1470, 22);
+            this.btn_viewrev_fddetail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_viewrev_fddetail.Name = "btn_viewrev_fddetail";
             this.btn_viewrev_fddetail.ShadowDecoration.Parent = this.btn_viewrev_fddetail;
-            this.btn_viewrev_fddetail.Size = new System.Drawing.Size(156, 47);
+            this.btn_viewrev_fddetail.Size = new System.Drawing.Size(255, 58);
             this.btn_viewrev_fddetail.TabIndex = 17;
-            this.btn_viewrev_fddetail.Text = "Food Details";
+            this.btn_viewrev_fddetail.Text = "Return to Admin Menu";
+            this.btn_viewrev_fddetail.Click += new System.EventHandler(this.btn_viewrev_fddetail_Click);
             // 
             // guna2CustomGradientPanel1
             // 
@@ -93,10 +96,11 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(3, 3);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(4, 4);
+            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.ShadowDecoration.Parent = this.guna2CustomGradientPanel1;
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1375, 88);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1833, 108);
             this.guna2CustomGradientPanel1.TabIndex = 4;
             // 
             // guna2CustomGradientPanel2
@@ -110,10 +114,11 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.Gray;
             this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.Black;
             this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.SystemColors.ActiveCaptionText;
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(3, 736);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(4, 906);
+            this.guna2CustomGradientPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.ShadowDecoration.Parent = this.guna2CustomGradientPanel2;
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1373, 89);
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1831, 110);
             this.guna2CustomGradientPanel2.TabIndex = 18;
             // 
             // bt_CashierLogout
@@ -124,13 +129,14 @@ namespace WindowsFormsApp3
             this.bt_CashierLogout.CustomImages.Parent = this.bt_CashierLogout;
             this.bt_CashierLogout.FillColor = System.Drawing.Color.Blue;
             this.bt_CashierLogout.FillColor2 = System.Drawing.Color.Red;
-            this.bt_CashierLogout.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_CashierLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_CashierLogout.ForeColor = System.Drawing.Color.White;
             this.bt_CashierLogout.HoverState.Parent = this.bt_CashierLogout;
-            this.bt_CashierLogout.Location = new System.Drawing.Point(1174, 23);
+            this.bt_CashierLogout.Location = new System.Drawing.Point(1565, 28);
+            this.bt_CashierLogout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bt_CashierLogout.Name = "bt_CashierLogout";
             this.bt_CashierLogout.ShadowDecoration.Parent = this.bt_CashierLogout;
-            this.bt_CashierLogout.Size = new System.Drawing.Size(135, 47);
+            this.bt_CashierLogout.Size = new System.Drawing.Size(180, 58);
             this.bt_CashierLogout.TabIndex = 5;
             this.bt_CashierLogout.Text = "LOGOUT";
             // 
@@ -138,11 +144,12 @@ namespace WindowsFormsApp3
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(155, 47);
+            this.label2.Location = new System.Drawing.Point(207, 58);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(563, 23);
+            this.label2.Size = new System.Drawing.Size(720, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "2021 All Rights Reserved.  Sample Software. Group Assignment - C# - Batch of 20.3" +
     "";
@@ -151,11 +158,12 @@ namespace WindowsFormsApp3
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Poppins", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(153, 15);
+            this.label1.Location = new System.Drawing.Point(204, 18);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 42);
+            this.label1.Size = new System.Drawing.Size(243, 36);
             this.label1.TabIndex = 3;
             this.label1.Text = "SMART MEALS";
             // 
@@ -164,10 +172,11 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel3.BorderRadius = 15;
             this.guna2CustomGradientPanel3.Controls.Add(this.pictureBox1);
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(63, 9);
+            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(84, 11);
+            this.guna2CustomGradientPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
             this.guna2CustomGradientPanel3.ShadowDecoration.Parent = this.guna2CustomGradientPanel3;
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(72, 65);
+            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(96, 80);
             this.guna2CustomGradientPanel3.TabIndex = 2;
             // 
             // pictureBox1
@@ -175,9 +184,10 @@ namespace WindowsFormsApp3
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 7);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 9);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(66, 53);
+            this.pictureBox1.Size = new System.Drawing.Size(88, 65);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
@@ -185,10 +195,11 @@ namespace WindowsFormsApp3
             // 
             this.guna2CustomGradientPanel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel6.BorderRadius = 35;
-            this.guna2CustomGradientPanel6.Location = new System.Drawing.Point(67, 126);
+            this.guna2CustomGradientPanel6.Location = new System.Drawing.Point(89, 155);
+            this.guna2CustomGradientPanel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2CustomGradientPanel6.Name = "guna2CustomGradientPanel6";
             this.guna2CustomGradientPanel6.ShadowDecoration.Parent = this.guna2CustomGradientPanel6;
-            this.guna2CustomGradientPanel6.Size = new System.Drawing.Size(1246, 574);
+            this.guna2CustomGradientPanel6.Size = new System.Drawing.Size(1661, 706);
             this.guna2CustomGradientPanel6.TabIndex = 19;
             // 
             // ssDataSet2
@@ -217,14 +228,14 @@ namespace WindowsFormsApp3
             // 
             // AdminViewRevenue
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.ClientSize = new System.Drawing.Size(1381, 827);
+            this.ClientSize = new System.Drawing.Size(1841, 1018);
             this.Controls.Add(this.guna2CustomGradientPanel6);
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.guna2CustomGradientPanel1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "AdminViewRevenue";
             this.Text = "Form1";

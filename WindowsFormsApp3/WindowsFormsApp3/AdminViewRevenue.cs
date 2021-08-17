@@ -23,5 +23,12 @@ namespace WindowsFormsApp3
             this.foodsTableAdapter.Fill(this.ssDataSet3.Foods);
 
         }
+
+        private void btn_viewrev_fddetail_Click(object sender, EventArgs e)
+        {
+            AdminMain adminMain = new AdminMain();
+            this.Dispose();
+            adminMain.Show();
+        }
     }
 }
