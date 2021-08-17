@@ -31,7 +31,7 @@ namespace WindowsFormsApp3
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminFoodItemMain));
             this.gunaLabel18 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_fditem_fddetail = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.bt_CashierLogout = new Guna.UI2.WinForms.Guna2GradientTileButton();
             this.label2 = new System.Windows.Forms.Label();
@@ -40,10 +40,10 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.txt_fditem_del = new Guna.UI2.WinForms.Guna2GradientCircleButton();
-            this.guna2GradientCircleButton3 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
-            this.guna2GradientCircleButton2 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
-            this.guna2GradientCircleButton1 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
+            this.btn_fditem_del = new Guna.UI2.WinForms.Guna2GradientCircleButton();
+            this.btn_fditem_create = new Guna.UI2.WinForms.Guna2GradientCircleButton();
+            this.btn_fditem_find = new Guna.UI2.WinForms.Guna2GradientCircleButton();
+            this.btn_fditem_update = new Guna.UI2.WinForms.Guna2GradientCircleButton();
             this.guna2CustomGradientPanel5 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -65,28 +65,28 @@ namespace WindowsFormsApp3
             this.gunaLabel18.Text = "FOOD ITEM SETTINGS";
             this.gunaLabel18.Click += new System.EventHandler(this.gunaLabel18_Click);
             // 
-            // guna2Button7
+            // btn_fditem_fddetail
             // 
-            this.guna2Button7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.BorderRadius = 20;
-            this.guna2Button7.CheckedState.Parent = this.guna2Button7;
-            this.guna2Button7.CustomImages.Parent = this.guna2Button7;
-            this.guna2Button7.FillColor = System.Drawing.Color.MidnightBlue;
-            this.guna2Button7.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.HoverState.Parent = this.guna2Button7;
-            this.guna2Button7.Location = new System.Drawing.Point(1141, 20);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
-            this.guna2Button7.Size = new System.Drawing.Size(156, 47);
-            this.guna2Button7.TabIndex = 17;
-            this.guna2Button7.Text = "Food Details";
+            this.btn_fditem_fddetail.BackColor = System.Drawing.Color.Transparent;
+            this.btn_fditem_fddetail.BorderRadius = 20;
+            this.btn_fditem_fddetail.CheckedState.Parent = this.btn_fditem_fddetail;
+            this.btn_fditem_fddetail.CustomImages.Parent = this.btn_fditem_fddetail;
+            this.btn_fditem_fddetail.FillColor = System.Drawing.Color.MidnightBlue;
+            this.btn_fditem_fddetail.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
+            this.btn_fditem_fddetail.ForeColor = System.Drawing.Color.White;
+            this.btn_fditem_fddetail.HoverState.Parent = this.btn_fditem_fddetail;
+            this.btn_fditem_fddetail.Location = new System.Drawing.Point(1141, 20);
+            this.btn_fditem_fddetail.Name = "btn_fditem_fddetail";
+            this.btn_fditem_fddetail.ShadowDecoration.Parent = this.btn_fditem_fddetail;
+            this.btn_fditem_fddetail.Size = new System.Drawing.Size(156, 47);
+            this.btn_fditem_fddetail.TabIndex = 17;
+            this.btn_fditem_fddetail.Text = "Food Details";
             // 
             // guna2CustomGradientPanel1
             // 
             this.guna2CustomGradientPanel1.BorderRadius = 35;
             this.guna2CustomGradientPanel1.Controls.Add(this.gunaLabel18);
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button7);
+            this.guna2CustomGradientPanel1.Controls.Add(this.btn_fditem_fddetail);
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -181,87 +181,87 @@ namespace WindowsFormsApp3
             // guna2CustomGradientPanel4
             // 
             this.guna2CustomGradientPanel4.BorderRadius = 50;
-            this.guna2CustomGradientPanel4.Controls.Add(this.txt_fditem_del);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2GradientCircleButton3);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2GradientCircleButton2);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2GradientCircleButton1);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_fditem_del);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_fditem_create);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_fditem_find);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_fditem_update);
             this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(393, 538);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
             this.guna2CustomGradientPanel4.ShadowDecoration.Parent = this.guna2CustomGradientPanel4;
             this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(629, 151);
             this.guna2CustomGradientPanel4.TabIndex = 5;
             // 
-            // txt_fditem_del
+            // btn_fditem_del
             // 
-            this.txt_fditem_del.BackColor = System.Drawing.Color.Transparent;
-            this.txt_fditem_del.CheckedState.Parent = this.txt_fditem_del;
-            this.txt_fditem_del.CustomImages.Parent = this.txt_fditem_del;
-            this.txt_fditem_del.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.txt_fditem_del.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.txt_fditem_del.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_fditem_del.ForeColor = System.Drawing.Color.White;
-            this.txt_fditem_del.HoverState.Parent = this.txt_fditem_del;
-            this.txt_fditem_del.Location = new System.Drawing.Point(476, 14);
-            this.txt_fditem_del.Name = "txt_fditem_del";
-            this.txt_fditem_del.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.txt_fditem_del.ShadowDecoration.Parent = this.txt_fditem_del;
-            this.txt_fditem_del.Size = new System.Drawing.Size(116, 116);
-            this.txt_fditem_del.TabIndex = 3;
-            this.txt_fditem_del.Text = "Delete";
+            this.btn_fditem_del.BackColor = System.Drawing.Color.Transparent;
+            this.btn_fditem_del.CheckedState.Parent = this.btn_fditem_del;
+            this.btn_fditem_del.CustomImages.Parent = this.btn_fditem_del;
+            this.btn_fditem_del.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_fditem_del.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_fditem_del.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fditem_del.ForeColor = System.Drawing.Color.White;
+            this.btn_fditem_del.HoverState.Parent = this.btn_fditem_del;
+            this.btn_fditem_del.Location = new System.Drawing.Point(476, 14);
+            this.btn_fditem_del.Name = "btn_fditem_del";
+            this.btn_fditem_del.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btn_fditem_del.ShadowDecoration.Parent = this.btn_fditem_del;
+            this.btn_fditem_del.Size = new System.Drawing.Size(116, 116);
+            this.btn_fditem_del.TabIndex = 3;
+            this.btn_fditem_del.Text = "Delete";
             // 
-            // guna2GradientCircleButton3
+            // btn_fditem_create
             // 
-            this.guna2GradientCircleButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientCircleButton3.CheckedState.Parent = this.guna2GradientCircleButton3;
-            this.guna2GradientCircleButton3.CustomImages.Parent = this.guna2GradientCircleButton3;
-            this.guna2GradientCircleButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2GradientCircleButton3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2GradientCircleButton3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientCircleButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientCircleButton3.HoverState.Parent = this.guna2GradientCircleButton3;
-            this.guna2GradientCircleButton3.Location = new System.Drawing.Point(182, 14);
-            this.guna2GradientCircleButton3.Name = "guna2GradientCircleButton3";
-            this.guna2GradientCircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2GradientCircleButton3.ShadowDecoration.Parent = this.guna2GradientCircleButton3;
-            this.guna2GradientCircleButton3.Size = new System.Drawing.Size(116, 116);
-            this.guna2GradientCircleButton3.TabIndex = 2;
-            this.guna2GradientCircleButton3.Text = "Create";
+            this.btn_fditem_create.BackColor = System.Drawing.Color.Transparent;
+            this.btn_fditem_create.CheckedState.Parent = this.btn_fditem_create;
+            this.btn_fditem_create.CustomImages.Parent = this.btn_fditem_create;
+            this.btn_fditem_create.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_fditem_create.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_fditem_create.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fditem_create.ForeColor = System.Drawing.Color.White;
+            this.btn_fditem_create.HoverState.Parent = this.btn_fditem_create;
+            this.btn_fditem_create.Location = new System.Drawing.Point(182, 14);
+            this.btn_fditem_create.Name = "btn_fditem_create";
+            this.btn_fditem_create.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btn_fditem_create.ShadowDecoration.Parent = this.btn_fditem_create;
+            this.btn_fditem_create.Size = new System.Drawing.Size(116, 116);
+            this.btn_fditem_create.TabIndex = 2;
+            this.btn_fditem_create.Text = "Create";
             // 
-            // guna2GradientCircleButton2
+            // btn_fditem_find
             // 
-            this.guna2GradientCircleButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientCircleButton2.CheckedState.Parent = this.guna2GradientCircleButton2;
-            this.guna2GradientCircleButton2.CustomImages.Parent = this.guna2GradientCircleButton2;
-            this.guna2GradientCircleButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2GradientCircleButton2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2GradientCircleButton2.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientCircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientCircleButton2.HoverState.Parent = this.guna2GradientCircleButton2;
-            this.guna2GradientCircleButton2.Location = new System.Drawing.Point(40, 14);
-            this.guna2GradientCircleButton2.Name = "guna2GradientCircleButton2";
-            this.guna2GradientCircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2GradientCircleButton2.ShadowDecoration.Parent = this.guna2GradientCircleButton2;
-            this.guna2GradientCircleButton2.Size = new System.Drawing.Size(116, 116);
-            this.guna2GradientCircleButton2.TabIndex = 1;
-            this.guna2GradientCircleButton2.Text = "Find";
+            this.btn_fditem_find.BackColor = System.Drawing.Color.Transparent;
+            this.btn_fditem_find.CheckedState.Parent = this.btn_fditem_find;
+            this.btn_fditem_find.CustomImages.Parent = this.btn_fditem_find;
+            this.btn_fditem_find.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_fditem_find.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_fditem_find.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fditem_find.ForeColor = System.Drawing.Color.White;
+            this.btn_fditem_find.HoverState.Parent = this.btn_fditem_find;
+            this.btn_fditem_find.Location = new System.Drawing.Point(40, 14);
+            this.btn_fditem_find.Name = "btn_fditem_find";
+            this.btn_fditem_find.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btn_fditem_find.ShadowDecoration.Parent = this.btn_fditem_find;
+            this.btn_fditem_find.Size = new System.Drawing.Size(116, 116);
+            this.btn_fditem_find.TabIndex = 1;
+            this.btn_fditem_find.Text = "Find";
             // 
-            // guna2GradientCircleButton1
+            // btn_fditem_update
             // 
-            this.guna2GradientCircleButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientCircleButton1.CheckedState.Parent = this.guna2GradientCircleButton1;
-            this.guna2GradientCircleButton1.CustomImages.Parent = this.guna2GradientCircleButton1;
-            this.guna2GradientCircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2GradientCircleButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2GradientCircleButton1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientCircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientCircleButton1.HoverState.Parent = this.guna2GradientCircleButton1;
-            this.guna2GradientCircleButton1.Location = new System.Drawing.Point(327, 14);
-            this.guna2GradientCircleButton1.Name = "guna2GradientCircleButton1";
-            this.guna2GradientCircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2GradientCircleButton1.ShadowDecoration.Parent = this.guna2GradientCircleButton1;
-            this.guna2GradientCircleButton1.Size = new System.Drawing.Size(116, 116);
-            this.guna2GradientCircleButton1.TabIndex = 0;
-            this.guna2GradientCircleButton1.Text = "Update";
+            this.btn_fditem_update.BackColor = System.Drawing.Color.Transparent;
+            this.btn_fditem_update.CheckedState.Parent = this.btn_fditem_update;
+            this.btn_fditem_update.CustomImages.Parent = this.btn_fditem_update;
+            this.btn_fditem_update.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_fditem_update.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_fditem_update.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_fditem_update.ForeColor = System.Drawing.Color.White;
+            this.btn_fditem_update.HoverState.Parent = this.btn_fditem_update;
+            this.btn_fditem_update.Location = new System.Drawing.Point(327, 14);
+            this.btn_fditem_update.Name = "btn_fditem_update";
+            this.btn_fditem_update.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btn_fditem_update.ShadowDecoration.Parent = this.btn_fditem_update;
+            this.btn_fditem_update.Size = new System.Drawing.Size(116, 116);
+            this.btn_fditem_update.TabIndex = 0;
+            this.btn_fditem_update.Text = "Update";
             // 
             // guna2CustomGradientPanel5
             // 
@@ -300,7 +300,7 @@ namespace WindowsFormsApp3
         #endregion
 
         private Guna.UI.WinForms.GunaLabel gunaLabel18;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
+        private Guna.UI2.WinForms.Guna2Button btn_fditem_fddetail;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI2.WinForms.Guna2GradientTileButton bt_CashierLogout;
         private System.Windows.Forms.Label label2;
@@ -309,10 +309,10 @@ namespace WindowsFormsApp3
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
-        private Guna.UI2.WinForms.Guna2GradientCircleButton txt_fditem_del;
-        private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton3;
-        private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton2;
-        private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton1;
+        private Guna.UI2.WinForms.Guna2GradientCircleButton btn_fditem_del;
+        private Guna.UI2.WinForms.Guna2GradientCircleButton btn_fditem_create;
+        private Guna.UI2.WinForms.Guna2GradientCircleButton btn_fditem_find;
+        private Guna.UI2.WinForms.Guna2GradientCircleButton btn_fditem_update;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel5;
     }
 }
