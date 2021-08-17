@@ -32,7 +32,7 @@ namespace WindowsFormsApp3
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminViewRevenue));
             this.gunaLabel18 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_viewrev_fddetail = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.bt_CashierLogout = new Guna.UI2.WinForms.Guna2GradientTileButton();
@@ -68,28 +68,28 @@ namespace WindowsFormsApp3
             this.gunaLabel18.TabIndex = 17;
             this.gunaLabel18.Text = "VIEW REVENUE";
             // 
-            // guna2Button7
+            // btn_viewrev_fddetail
             // 
-            this.guna2Button7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.BorderRadius = 20;
-            this.guna2Button7.CheckedState.Parent = this.guna2Button7;
-            this.guna2Button7.CustomImages.Parent = this.guna2Button7;
-            this.guna2Button7.FillColor = System.Drawing.Color.MidnightBlue;
-            this.guna2Button7.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.HoverState.Parent = this.guna2Button7;
-            this.guna2Button7.Location = new System.Drawing.Point(1138, 18);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
-            this.guna2Button7.Size = new System.Drawing.Size(156, 47);
-            this.guna2Button7.TabIndex = 17;
-            this.guna2Button7.Text = "Food Details";
+            this.btn_viewrev_fddetail.BackColor = System.Drawing.Color.Transparent;
+            this.btn_viewrev_fddetail.BorderRadius = 20;
+            this.btn_viewrev_fddetail.CheckedState.Parent = this.btn_viewrev_fddetail;
+            this.btn_viewrev_fddetail.CustomImages.Parent = this.btn_viewrev_fddetail;
+            this.btn_viewrev_fddetail.FillColor = System.Drawing.Color.MidnightBlue;
+            this.btn_viewrev_fddetail.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
+            this.btn_viewrev_fddetail.ForeColor = System.Drawing.Color.White;
+            this.btn_viewrev_fddetail.HoverState.Parent = this.btn_viewrev_fddetail;
+            this.btn_viewrev_fddetail.Location = new System.Drawing.Point(1138, 18);
+            this.btn_viewrev_fddetail.Name = "btn_viewrev_fddetail";
+            this.btn_viewrev_fddetail.ShadowDecoration.Parent = this.btn_viewrev_fddetail;
+            this.btn_viewrev_fddetail.Size = new System.Drawing.Size(156, 47);
+            this.btn_viewrev_fddetail.TabIndex = 17;
+            this.btn_viewrev_fddetail.Text = "Food Details";
             // 
             // guna2CustomGradientPanel1
             // 
             this.guna2CustomGradientPanel1.BorderRadius = 35;
             this.guna2CustomGradientPanel1.Controls.Add(this.gunaLabel18);
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button7);
+            this.guna2CustomGradientPanel1.Controls.Add(this.btn_viewrev_fddetail);
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -246,7 +246,7 @@ namespace WindowsFormsApp3
         #endregion
 
         private Guna.UI.WinForms.GunaLabel gunaLabel18;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
+        private Guna.UI2.WinForms.Guna2Button btn_viewrev_fddetail;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
         private Guna.UI2.WinForms.Guna2GradientTileButton bt_CashierLogout;
