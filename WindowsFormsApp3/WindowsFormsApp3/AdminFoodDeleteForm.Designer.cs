@@ -31,7 +31,7 @@ namespace WindowsFormsApp3
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminFoodDeleteForm));
             this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.txt_delfd_delete = new Guna.UI2.WinForms.Guna2Button();
             this.gunaLabel24 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel25 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel26 = new Guna.UI.WinForms.GunaLabel();
@@ -44,9 +44,9 @@ namespace WindowsFormsApp3
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_delfd_enterid = new Guna.UI2.WinForms.Guna2TextBox();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_delfd_enter = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.bt_CashierLogout = new Guna.UI2.WinForms.Guna2GradientTileButton();
             this.label2 = new System.Windows.Forms.Label();
@@ -66,7 +66,7 @@ namespace WindowsFormsApp3
             // guna2CustomGradientPanel4
             // 
             this.guna2CustomGradientPanel4.BorderRadius = 50;
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button2);
+            this.guna2CustomGradientPanel4.Controls.Add(this.txt_delfd_delete);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel24);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel25);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel26);
@@ -79,31 +79,31 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel4);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel3);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel2);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2TextBox1);
+            this.guna2CustomGradientPanel4.Controls.Add(this.txt_delfd_enterid);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel1);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button1);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_delfd_enter);
             this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(69, 151);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
             this.guna2CustomGradientPanel4.ShadowDecoration.Parent = this.guna2CustomGradientPanel4;
             this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(805, 387);
             this.guna2CustomGradientPanel4.TabIndex = 22;
             // 
-            // guna2Button2
+            // txt_delfd_delete
             // 
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderRadius = 20;
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.FillColor = System.Drawing.Color.Maroon;
-            this.guna2Button2.Font = new System.Drawing.Font("Poppins SemiBold", 14F, System.Drawing.FontStyle.Bold);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(277, 278);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(246, 56);
-            this.guna2Button2.TabIndex = 72;
-            this.guna2Button2.Text = "DELETE Food Details";
+            this.txt_delfd_delete.BackColor = System.Drawing.Color.Transparent;
+            this.txt_delfd_delete.BorderRadius = 20;
+            this.txt_delfd_delete.CheckedState.Parent = this.txt_delfd_delete;
+            this.txt_delfd_delete.CustomImages.Parent = this.txt_delfd_delete;
+            this.txt_delfd_delete.FillColor = System.Drawing.Color.Maroon;
+            this.txt_delfd_delete.Font = new System.Drawing.Font("Poppins SemiBold", 14F, System.Drawing.FontStyle.Bold);
+            this.txt_delfd_delete.ForeColor = System.Drawing.Color.White;
+            this.txt_delfd_delete.HoverState.Parent = this.txt_delfd_delete;
+            this.txt_delfd_delete.Location = new System.Drawing.Point(277, 278);
+            this.txt_delfd_delete.Name = "txt_delfd_delete";
+            this.txt_delfd_delete.ShadowDecoration.Parent = this.txt_delfd_delete;
+            this.txt_delfd_delete.Size = new System.Drawing.Size(246, 56);
+            this.txt_delfd_delete.TabIndex = 72;
+            this.txt_delfd_delete.Text = "DELETE  Food Details";
             // 
             // gunaLabel24
             // 
@@ -237,27 +237,27 @@ namespace WindowsFormsApp3
             this.gunaLabel2.TabIndex = 60;
             this.gunaLabel2.Text = "Food ID";
             // 
-            // guna2TextBox1
+            // txt_delfd_enterid
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(255, 55);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(325, 43);
-            this.guna2TextBox1.TabIndex = 59;
+            this.txt_delfd_enterid.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_delfd_enterid.DefaultText = "";
+            this.txt_delfd_enterid.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_delfd_enterid.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_delfd_enterid.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_delfd_enterid.DisabledState.Parent = this.txt_delfd_enterid;
+            this.txt_delfd_enterid.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_delfd_enterid.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_delfd_enterid.FocusedState.Parent = this.txt_delfd_enterid;
+            this.txt_delfd_enterid.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_delfd_enterid.HoverState.Parent = this.txt_delfd_enterid;
+            this.txt_delfd_enterid.Location = new System.Drawing.Point(255, 55);
+            this.txt_delfd_enterid.Name = "txt_delfd_enterid";
+            this.txt_delfd_enterid.PasswordChar = '\0';
+            this.txt_delfd_enterid.PlaceholderText = "";
+            this.txt_delfd_enterid.SelectedText = "";
+            this.txt_delfd_enterid.ShadowDecoration.Parent = this.txt_delfd_enterid;
+            this.txt_delfd_enterid.Size = new System.Drawing.Size(325, 43);
+            this.txt_delfd_enterid.TabIndex = 59;
             // 
             // gunaLabel1
             // 
@@ -270,22 +270,22 @@ namespace WindowsFormsApp3
             this.gunaLabel1.TabIndex = 58;
             this.gunaLabel1.Text = "Enter Food ID";
             // 
-            // guna2Button1
+            // btn_delfd_enter
             // 
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderRadius = 20;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.MidnightBlue;
-            this.guna2Button1.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(600, 51);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(156, 47);
-            this.guna2Button1.TabIndex = 57;
-            this.guna2Button1.Text = "ENTER";
+            this.btn_delfd_enter.BackColor = System.Drawing.Color.Transparent;
+            this.btn_delfd_enter.BorderRadius = 20;
+            this.btn_delfd_enter.CheckedState.Parent = this.btn_delfd_enter;
+            this.btn_delfd_enter.CustomImages.Parent = this.btn_delfd_enter;
+            this.btn_delfd_enter.FillColor = System.Drawing.Color.MidnightBlue;
+            this.btn_delfd_enter.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
+            this.btn_delfd_enter.ForeColor = System.Drawing.Color.White;
+            this.btn_delfd_enter.HoverState.Parent = this.btn_delfd_enter;
+            this.btn_delfd_enter.Location = new System.Drawing.Point(600, 51);
+            this.btn_delfd_enter.Name = "btn_delfd_enter";
+            this.btn_delfd_enter.ShadowDecoration.Parent = this.btn_delfd_enter;
+            this.btn_delfd_enter.Size = new System.Drawing.Size(156, 47);
+            this.btn_delfd_enter.TabIndex = 57;
+            this.btn_delfd_enter.Text = "ENTER";
             // 
             // guna2CustomGradientPanel2
             // 
@@ -448,7 +448,7 @@ namespace WindowsFormsApp3
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI.WinForms.GunaLabel gunaLabel18;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button txt_delfd_delete;
         private Guna.UI.WinForms.GunaLabel gunaLabel24;
         private Guna.UI.WinForms.GunaLabel gunaLabel25;
         private Guna.UI.WinForms.GunaLabel gunaLabel26;
@@ -461,8 +461,8 @@ namespace WindowsFormsApp3
         private Guna.UI.WinForms.GunaLabel gunaLabel4;
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txt_delfd_enterid;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btn_delfd_enter;
     }
 }
