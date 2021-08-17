@@ -30,5 +30,12 @@ namespace WindowsFormsApp3
             this.Dispose();
             adminMain.Show();
         }
+
+        private void bt_CashierLogout_Click(object sender, EventArgs e)
+        {
+            AdminLoginForm adminLoginForm = new AdminLoginForm();
+            this.Dispose();
+            adminLoginForm.Show();
+        }
     }
 }

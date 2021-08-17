@@ -139,6 +139,7 @@ namespace WindowsFormsApp3
             this.bt_CashierLogout.Size = new System.Drawing.Size(180, 58);
             this.bt_CashierLogout.TabIndex = 5;
             this.bt_CashierLogout.Text = "LOGOUT";
+            this.bt_CashierLogout.Click += new System.EventHandler(this.bt_CashierLogout_Click);
             // 
             // label2
             // 
