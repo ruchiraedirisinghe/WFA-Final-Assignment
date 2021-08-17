@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace WindowsFormsApp3
 {
+    
     public partial class CashierMain : Form
     {
+      
         public CashierMain()
         {
             InitializeComponent();
@@ -31,13 +34,6 @@ namespace WindowsFormsApp3
 
         }
 
-        private void CashierMain_Load(object sender, EventArgs e)
-        {
-            // TODO: This line of code loads data into the 'ssDataSet.OngoingBill' table. You can move, or remove it, as needed.
-            this.ongoingBillTableAdapter.Fill(this.ssDataSet.OngoingBill);
-
-        }
-
         private void gunaLabel1_Click(object sender, EventArgs e)
         {
 
@@ -50,6 +46,10 @@ namespace WindowsFormsApp3
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+           
+
+
+
 
         }
 
@@ -57,6 +57,24 @@ namespace WindowsFormsApp3
         {
             CashierFoodDetails obj = new CashierFoodDetails();
             obj.Show();
+        }
+
+        private void CashierMain_Load(object sender, EventArgs e)
+        {
+            string constring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Sudeera Wijenayake\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\ss.mdf;Integrated Security=True;Connect Timeout=30";
+            string loadqry = "select * from OngoingBill";
+
+
+
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(loadqry, constring);
+            DataSet dataSet = new DataSet();
+
+
+            sqlDataAdapter.Fill(dataSet, "OngoingBill");
+            dataGridView1.DataSource = dataSet.Tables["OngoingBill"];
+            
+            
+
         }
     }
 }
