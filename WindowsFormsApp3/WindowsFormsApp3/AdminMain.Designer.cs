@@ -77,12 +77,12 @@ namespace WindowsFormsApp3
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Poppins", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(233, 15);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(763, 84);
+            this.label2.Size = new System.Drawing.Size(697, 55);
             this.label2.TabIndex = 2;
             this.label2.Text = "Welcome To The Admin Menu";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -97,7 +97,7 @@ namespace WindowsFormsApp3
             this.bt_AdminSignOut.BorderColor = System.Drawing.Color.Black;
             this.bt_AdminSignOut.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bt_AdminSignOut.FocusedColor = System.Drawing.Color.Empty;
-            this.bt_AdminSignOut.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_AdminSignOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_AdminSignOut.ForeColor = System.Drawing.Color.White;
             this.bt_AdminSignOut.Image = null;
             this.bt_AdminSignOut.ImageSize = new System.Drawing.Size(20, 20);
@@ -135,7 +135,7 @@ namespace WindowsFormsApp3
             this.btCASHIERSET.CustomImages.Parent = this.btCASHIERSET;
             this.btCASHIERSET.FillColor = System.Drawing.Color.ForestGreen;
             this.btCASHIERSET.FillColor2 = System.Drawing.Color.DarkGreen;
-            this.btCASHIERSET.Font = new System.Drawing.Font("Poppins", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btCASHIERSET.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btCASHIERSET.ForeColor = System.Drawing.Color.White;
             this.btCASHIERSET.HoverState.Parent = this.btCASHIERSET;
             this.btCASHIERSET.Location = new System.Drawing.Point(19, 16);
@@ -164,7 +164,7 @@ namespace WindowsFormsApp3
             this.btREVSET.CustomImages.Parent = this.btREVSET;
             this.btREVSET.FillColor = System.Drawing.Color.Firebrick;
             this.btREVSET.FillColor2 = System.Drawing.Color.Maroon;
-            this.btREVSET.Font = new System.Drawing.Font("Poppins", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btREVSET.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btREVSET.ForeColor = System.Drawing.Color.White;
             this.btREVSET.HoverState.Parent = this.btREVSET;
             this.btREVSET.Location = new System.Drawing.Point(20, 16);
@@ -193,7 +193,7 @@ namespace WindowsFormsApp3
             this.btITEMSET.CustomImages.Parent = this.btITEMSET;
             this.btITEMSET.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btITEMSET.FillColor2 = System.Drawing.Color.Black;
-            this.btITEMSET.Font = new System.Drawing.Font("Poppins", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btITEMSET.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btITEMSET.ForeColor = System.Drawing.Color.White;
             this.btITEMSET.HoverState.Parent = this.btITEMSET;
             this.btITEMSET.Location = new System.Drawing.Point(20, 16);
@@ -226,11 +226,11 @@ namespace WindowsFormsApp3
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(155, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(563, 23);
+            this.label1.Size = new System.Drawing.Size(577, 16);
             this.label1.TabIndex = 4;
             this.label1.Text = "2021 All Rights Reserved.  Sample Software. Group Assignment - C# - Batch of 20.3" +
     "";
@@ -239,11 +239,11 @@ namespace WindowsFormsApp3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Poppins", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(153, 22);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(187, 42);
+            this.label3.Size = new System.Drawing.Size(194, 29);
             this.label3.TabIndex = 3;
             this.label3.Text = "SMART MEALS";
             // 
@@ -279,13 +279,14 @@ namespace WindowsFormsApp3
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1343, 657);
             this.panel1.TabIndex = 9;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // AdminMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.ClientSize = new System.Drawing.Size(1381, 827);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.guna2CustomGradientPanel3);
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);

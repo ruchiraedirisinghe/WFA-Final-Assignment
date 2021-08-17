@@ -77,5 +77,10 @@ namespace WindowsFormsApp3
             this.Dispose();
             welcomeForm.Show();
         }
+
+        private void AdminLoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

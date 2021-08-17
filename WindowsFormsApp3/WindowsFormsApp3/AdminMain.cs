@@ -62,5 +62,10 @@ namespace WindowsFormsApp3
             this.Hide();
             adminItemSettings.Show();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
