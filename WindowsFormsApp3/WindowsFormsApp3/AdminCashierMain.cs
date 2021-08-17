@@ -65,5 +65,10 @@ namespace WindowsFormsApp3
             AdminCashierUpdate adminCashierUpdate = new AdminCashierUpdate();
             adminCashierUpdate.Show();
         }
+
+        private void guna2GradientButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
