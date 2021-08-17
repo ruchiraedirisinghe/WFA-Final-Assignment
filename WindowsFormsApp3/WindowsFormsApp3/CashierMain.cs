@@ -61,7 +61,7 @@ namespace WindowsFormsApp3
 
         private void CashierMain_Load(object sender, EventArgs e)
         {
-            string constring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Sudeera Wijenayake\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\ss.mdf;Integrated Security=True;Connect Timeout=30";
+            string constring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\GitHub\WFA-Final-Assignment\WindowsFormsApp3\WindowsFormsApp3\ss.mdf;Integrated Security=True;Connect Timeout=30";
             string loadqry = "select * from OngoingBill";
 
 
