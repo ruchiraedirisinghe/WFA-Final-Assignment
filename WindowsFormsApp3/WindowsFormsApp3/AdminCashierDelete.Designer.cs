@@ -39,7 +39,7 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_delcash = new Guna.UI2.WinForms.Guna2Button();
             this.gunaLabel27 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel28 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel29 = new Guna.UI.WinForms.GunaLabel();
@@ -76,9 +76,9 @@ namespace WindowsFormsApp3
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_cashid_del = new Guna.UI2.WinForms.Guna2TextBox();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_enter = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.guna2CustomGradientPanel3.SuspendLayout();
@@ -196,7 +196,7 @@ namespace WindowsFormsApp3
             // guna2CustomGradientPanel4
             // 
             this.guna2CustomGradientPanel4.BorderRadius = 50;
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button2);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_delcash);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel27);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel28);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel29);
@@ -233,31 +233,31 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel4);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel3);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel2);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2TextBox1);
+            this.guna2CustomGradientPanel4.Controls.Add(this.txt_cashid_del);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel1);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button1);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_enter);
             this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(33, 115);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
             this.guna2CustomGradientPanel4.ShadowDecoration.Parent = this.guna2CustomGradientPanel4;
             this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(886, 461);
             this.guna2CustomGradientPanel4.TabIndex = 19;
             // 
-            // guna2Button2
+            // btn_delcash
             // 
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderRadius = 20;
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.FillColor = System.Drawing.Color.Maroon;
-            this.guna2Button2.Font = new System.Drawing.Font("Poppins SemiBold", 14F, System.Drawing.FontStyle.Bold);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(675, 201);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(132, 112);
-            this.guna2Button2.TabIndex = 56;
-            this.guna2Button2.Text = "DELETE Cashier";
+            this.btn_delcash.BackColor = System.Drawing.Color.Transparent;
+            this.btn_delcash.BorderRadius = 20;
+            this.btn_delcash.CheckedState.Parent = this.btn_delcash;
+            this.btn_delcash.CustomImages.Parent = this.btn_delcash;
+            this.btn_delcash.FillColor = System.Drawing.Color.Maroon;
+            this.btn_delcash.Font = new System.Drawing.Font("Poppins SemiBold", 14F, System.Drawing.FontStyle.Bold);
+            this.btn_delcash.ForeColor = System.Drawing.Color.White;
+            this.btn_delcash.HoverState.Parent = this.btn_delcash;
+            this.btn_delcash.Location = new System.Drawing.Point(675, 201);
+            this.btn_delcash.Name = "btn_delcash";
+            this.btn_delcash.ShadowDecoration.Parent = this.btn_delcash;
+            this.btn_delcash.Size = new System.Drawing.Size(132, 112);
+            this.btn_delcash.TabIndex = 56;
+            this.btn_delcash.Text = "DELETE Cashier";
             // 
             // gunaLabel27
             // 
@@ -655,27 +655,27 @@ namespace WindowsFormsApp3
             this.gunaLabel2.TabIndex = 20;
             this.gunaLabel2.Text = "Cashier ID";
             // 
-            // guna2TextBox1
+            // txt_cashid_del
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(308, 32);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(325, 43);
-            this.guna2TextBox1.TabIndex = 19;
+            this.txt_cashid_del.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_cashid_del.DefaultText = "";
+            this.txt_cashid_del.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_cashid_del.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_cashid_del.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_cashid_del.DisabledState.Parent = this.txt_cashid_del;
+            this.txt_cashid_del.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_cashid_del.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_cashid_del.FocusedState.Parent = this.txt_cashid_del;
+            this.txt_cashid_del.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_cashid_del.HoverState.Parent = this.txt_cashid_del;
+            this.txt_cashid_del.Location = new System.Drawing.Point(308, 32);
+            this.txt_cashid_del.Name = "txt_cashid_del";
+            this.txt_cashid_del.PasswordChar = '\0';
+            this.txt_cashid_del.PlaceholderText = "";
+            this.txt_cashid_del.SelectedText = "";
+            this.txt_cashid_del.ShadowDecoration.Parent = this.txt_cashid_del;
+            this.txt_cashid_del.Size = new System.Drawing.Size(325, 43);
+            this.txt_cashid_del.TabIndex = 19;
             // 
             // gunaLabel1
             // 
@@ -688,22 +688,22 @@ namespace WindowsFormsApp3
             this.gunaLabel1.TabIndex = 18;
             this.gunaLabel1.Text = "Enter Cashier ID";
             // 
-            // guna2Button1
+            // btn_enter
             // 
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderRadius = 20;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.MidnightBlue;
-            this.guna2Button1.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(675, 28);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(156, 47);
-            this.guna2Button1.TabIndex = 17;
-            this.guna2Button1.Text = "ENTER";
+            this.btn_enter.BackColor = System.Drawing.Color.Transparent;
+            this.btn_enter.BorderRadius = 20;
+            this.btn_enter.CheckedState.Parent = this.btn_enter;
+            this.btn_enter.CustomImages.Parent = this.btn_enter;
+            this.btn_enter.FillColor = System.Drawing.Color.MidnightBlue;
+            this.btn_enter.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
+            this.btn_enter.ForeColor = System.Drawing.Color.White;
+            this.btn_enter.HoverState.Parent = this.btn_enter;
+            this.btn_enter.Location = new System.Drawing.Point(675, 28);
+            this.btn_enter.Name = "btn_enter";
+            this.btn_enter.ShadowDecoration.Parent = this.btn_enter;
+            this.btn_enter.Size = new System.Drawing.Size(156, 47);
+            this.btn_enter.TabIndex = 17;
+            this.btn_enter.Text = "ENTER";
             // 
             // AdminCashierDelete
             // 
@@ -739,7 +739,7 @@ namespace WindowsFormsApp3
         private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI.WinForms.GunaLabel gunaLabel18;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btn_delcash;
         private Guna.UI.WinForms.GunaLabel gunaLabel27;
         private Guna.UI.WinForms.GunaLabel gunaLabel28;
         private Guna.UI.WinForms.GunaLabel gunaLabel29;
@@ -776,8 +776,8 @@ namespace WindowsFormsApp3
         private Guna.UI.WinForms.GunaLabel gunaLabel4;
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txt_cashid_del;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btn_enter;
     }
 }
