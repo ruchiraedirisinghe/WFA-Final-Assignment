@@ -23,5 +23,10 @@ namespace WindowsFormsApp3
             this.foodsTableAdapter.Fill(this.ssDataSet4.Foods);
 
         }
+
+        private void bt_CashierLogout_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
