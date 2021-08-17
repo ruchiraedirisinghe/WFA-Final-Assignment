@@ -43,9 +43,9 @@ namespace WindowsFormsApp3
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_find_fdid = new Guna.UI2.WinForms.Guna2TextBox();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_find_enter = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.bt_CashierLogout = new Guna.UI2.WinForms.Guna2GradientTileButton();
             this.label2 = new System.Windows.Forms.Label();
@@ -54,7 +54,7 @@ namespace WindowsFormsApp3
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.gunaLabel18 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_find_fddetail = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel4.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.guna2CustomGradientPanel3.SuspendLayout();
@@ -77,9 +77,9 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel4);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel3);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel2);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2TextBox1);
+            this.guna2CustomGradientPanel4.Controls.Add(this.txt_find_fdid);
             this.guna2CustomGradientPanel4.Controls.Add(this.gunaLabel1);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2Button1);
+            this.guna2CustomGradientPanel4.Controls.Add(this.btn_find_enter);
             this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(66, 202);
             this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
             this.guna2CustomGradientPanel4.ShadowDecoration.Parent = this.guna2CustomGradientPanel4;
@@ -218,27 +218,27 @@ namespace WindowsFormsApp3
             this.gunaLabel2.TabIndex = 44;
             this.gunaLabel2.Text = "Food ID";
             // 
-            // guna2TextBox1
+            // txt_find_fdid
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(266, 49);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(325, 43);
-            this.guna2TextBox1.TabIndex = 43;
+            this.txt_find_fdid.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_find_fdid.DefaultText = "";
+            this.txt_find_fdid.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_find_fdid.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_find_fdid.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_find_fdid.DisabledState.Parent = this.txt_find_fdid;
+            this.txt_find_fdid.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_find_fdid.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_find_fdid.FocusedState.Parent = this.txt_find_fdid;
+            this.txt_find_fdid.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_find_fdid.HoverState.Parent = this.txt_find_fdid;
+            this.txt_find_fdid.Location = new System.Drawing.Point(266, 49);
+            this.txt_find_fdid.Name = "txt_find_fdid";
+            this.txt_find_fdid.PasswordChar = '\0';
+            this.txt_find_fdid.PlaceholderText = "";
+            this.txt_find_fdid.SelectedText = "";
+            this.txt_find_fdid.ShadowDecoration.Parent = this.txt_find_fdid;
+            this.txt_find_fdid.Size = new System.Drawing.Size(325, 43);
+            this.txt_find_fdid.TabIndex = 43;
             // 
             // gunaLabel1
             // 
@@ -251,22 +251,22 @@ namespace WindowsFormsApp3
             this.gunaLabel1.TabIndex = 42;
             this.gunaLabel1.Text = "Enter Food ID";
             // 
-            // guna2Button1
+            // btn_find_enter
             // 
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderRadius = 20;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.Indigo;
-            this.guna2Button1.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(627, 49);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(154, 43);
-            this.guna2Button1.TabIndex = 41;
-            this.guna2Button1.Text = "ENTER";
+            this.btn_find_enter.BackColor = System.Drawing.Color.Transparent;
+            this.btn_find_enter.BorderRadius = 20;
+            this.btn_find_enter.CheckedState.Parent = this.btn_find_enter;
+            this.btn_find_enter.CustomImages.Parent = this.btn_find_enter;
+            this.btn_find_enter.FillColor = System.Drawing.Color.Indigo;
+            this.btn_find_enter.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
+            this.btn_find_enter.ForeColor = System.Drawing.Color.White;
+            this.btn_find_enter.HoverState.Parent = this.btn_find_enter;
+            this.btn_find_enter.Location = new System.Drawing.Point(627, 49);
+            this.btn_find_enter.Name = "btn_find_enter";
+            this.btn_find_enter.ShadowDecoration.Parent = this.btn_find_enter;
+            this.btn_find_enter.Size = new System.Drawing.Size(154, 43);
+            this.btn_find_enter.TabIndex = 41;
+            this.btn_find_enter.Text = "ENTER";
             // 
             // guna2CustomGradientPanel2
             // 
@@ -354,7 +354,7 @@ namespace WindowsFormsApp3
             // 
             this.guna2CustomGradientPanel1.BorderRadius = 35;
             this.guna2CustomGradientPanel1.Controls.Add(this.gunaLabel18);
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2Button7);
+            this.guna2CustomGradientPanel1.Controls.Add(this.btn_find_fddetail);
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -376,22 +376,22 @@ namespace WindowsFormsApp3
             this.gunaLabel18.TabIndex = 18;
             this.gunaLabel18.Text = "FIND FOODS";
             // 
-            // guna2Button7
+            // btn_find_fddetail
             // 
-            this.guna2Button7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.BorderRadius = 20;
-            this.guna2Button7.CheckedState.Parent = this.guna2Button7;
-            this.guna2Button7.CustomImages.Parent = this.guna2Button7;
-            this.guna2Button7.FillColor = System.Drawing.Color.MidnightBlue;
-            this.guna2Button7.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.HoverState.Parent = this.guna2Button7;
-            this.guna2Button7.Location = new System.Drawing.Point(726, 22);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
-            this.guna2Button7.Size = new System.Drawing.Size(156, 47);
-            this.guna2Button7.TabIndex = 17;
-            this.guna2Button7.Text = "Food Details";
+            this.btn_find_fddetail.BackColor = System.Drawing.Color.Transparent;
+            this.btn_find_fddetail.BorderRadius = 20;
+            this.btn_find_fddetail.CheckedState.Parent = this.btn_find_fddetail;
+            this.btn_find_fddetail.CustomImages.Parent = this.btn_find_fddetail;
+            this.btn_find_fddetail.FillColor = System.Drawing.Color.MidnightBlue;
+            this.btn_find_fddetail.Font = new System.Drawing.Font("Poppins SemiBold", 11F, System.Drawing.FontStyle.Bold);
+            this.btn_find_fddetail.ForeColor = System.Drawing.Color.White;
+            this.btn_find_fddetail.HoverState.Parent = this.btn_find_fddetail;
+            this.btn_find_fddetail.Location = new System.Drawing.Point(726, 22);
+            this.btn_find_fddetail.Name = "btn_find_fddetail";
+            this.btn_find_fddetail.ShadowDecoration.Parent = this.btn_find_fddetail;
+            this.btn_find_fddetail.Size = new System.Drawing.Size(156, 47);
+            this.btn_find_fddetail.TabIndex = 17;
+            this.btn_find_fddetail.Text = "Food Details";
             // 
             // AdminFoodFindForm
             // 
@@ -428,7 +428,7 @@ namespace WindowsFormsApp3
         private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI.WinForms.GunaLabel gunaLabel18;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
+        private Guna.UI2.WinForms.Guna2Button btn_find_fddetail;
         private Guna.UI.WinForms.GunaLabel gunaLabel24;
         private Guna.UI.WinForms.GunaLabel gunaLabel25;
         private Guna.UI.WinForms.GunaLabel gunaLabel26;
@@ -441,8 +441,8 @@ namespace WindowsFormsApp3
         private Guna.UI.WinForms.GunaLabel gunaLabel4;
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txt_find_fdid;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btn_find_enter;
     }
 }
