@@ -65,5 +65,11 @@ namespace WindowsFormsApp3
             AdminCashierUpdate adminCashierUpdate = new AdminCashierUpdate();
             adminCashierUpdate.Show();
         }
+
+        private void btn_cashfind_delete_Click(object sender, EventArgs e)
+        {
+            AdminCashierDelete adminCashierDelete = new AdminCashierDelete();
+            adminCashierDelete.Show();
+        }
     }
 }
