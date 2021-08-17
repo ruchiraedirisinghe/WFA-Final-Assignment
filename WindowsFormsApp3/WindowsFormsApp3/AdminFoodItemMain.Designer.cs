@@ -40,7 +40,7 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2GradientCircleButton4 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
+            this.txt_fditem_del = new Guna.UI2.WinForms.Guna2GradientCircleButton();
             this.guna2GradientCircleButton3 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
             this.guna2GradientCircleButton2 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
             this.guna2GradientCircleButton1 = new Guna.UI2.WinForms.Guna2GradientCircleButton();
@@ -181,7 +181,7 @@ namespace WindowsFormsApp3
             // guna2CustomGradientPanel4
             // 
             this.guna2CustomGradientPanel4.BorderRadius = 50;
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2GradientCircleButton4);
+            this.guna2CustomGradientPanel4.Controls.Add(this.txt_fditem_del);
             this.guna2CustomGradientPanel4.Controls.Add(this.guna2GradientCircleButton3);
             this.guna2CustomGradientPanel4.Controls.Add(this.guna2GradientCircleButton2);
             this.guna2CustomGradientPanel4.Controls.Add(this.guna2GradientCircleButton1);
@@ -191,23 +191,23 @@ namespace WindowsFormsApp3
             this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(629, 151);
             this.guna2CustomGradientPanel4.TabIndex = 5;
             // 
-            // guna2GradientCircleButton4
+            // txt_fditem_del
             // 
-            this.guna2GradientCircleButton4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientCircleButton4.CheckedState.Parent = this.guna2GradientCircleButton4;
-            this.guna2GradientCircleButton4.CustomImages.Parent = this.guna2GradientCircleButton4;
-            this.guna2GradientCircleButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2GradientCircleButton4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.guna2GradientCircleButton4.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientCircleButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientCircleButton4.HoverState.Parent = this.guna2GradientCircleButton4;
-            this.guna2GradientCircleButton4.Location = new System.Drawing.Point(476, 14);
-            this.guna2GradientCircleButton4.Name = "guna2GradientCircleButton4";
-            this.guna2GradientCircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2GradientCircleButton4.ShadowDecoration.Parent = this.guna2GradientCircleButton4;
-            this.guna2GradientCircleButton4.Size = new System.Drawing.Size(116, 116);
-            this.guna2GradientCircleButton4.TabIndex = 3;
-            this.guna2GradientCircleButton4.Text = "Delete";
+            this.txt_fditem_del.BackColor = System.Drawing.Color.Transparent;
+            this.txt_fditem_del.CheckedState.Parent = this.txt_fditem_del;
+            this.txt_fditem_del.CustomImages.Parent = this.txt_fditem_del;
+            this.txt_fditem_del.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.txt_fditem_del.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.txt_fditem_del.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_fditem_del.ForeColor = System.Drawing.Color.White;
+            this.txt_fditem_del.HoverState.Parent = this.txt_fditem_del;
+            this.txt_fditem_del.Location = new System.Drawing.Point(476, 14);
+            this.txt_fditem_del.Name = "txt_fditem_del";
+            this.txt_fditem_del.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.txt_fditem_del.ShadowDecoration.Parent = this.txt_fditem_del;
+            this.txt_fditem_del.Size = new System.Drawing.Size(116, 116);
+            this.txt_fditem_del.TabIndex = 3;
+            this.txt_fditem_del.Text = "Delete";
             // 
             // guna2GradientCircleButton3
             // 
@@ -309,7 +309,7 @@ namespace WindowsFormsApp3
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
-        private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton4;
+        private Guna.UI2.WinForms.Guna2GradientCircleButton txt_fditem_del;
         private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton3;
         private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton2;
         private Guna.UI2.WinForms.Guna2GradientCircleButton guna2GradientCircleButton1;
