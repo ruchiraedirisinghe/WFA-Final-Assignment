@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6CA1ECF1-5F5A-4404-A78A-A8BEFDF3C6C1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp3</RootNamespace>
+    <AssemblyName>WindowsFormsApp3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\Documents\New folder (2)\_Getintopc.com_Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\Documents\New folder (2)\_Getintopc.com_Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminCashierCreateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminCashierCreateForm.Designer.cs">
+      <DependentUpon>AdminCashierCreateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCashierDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminCashierDelete.Designer.cs">
+      <DependentUpon>AdminCashierDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCashierFindForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminCashierFindForm.Designer.cs">
+      <DependentUpon>AdminCashierFindForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCashierUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminCashierUpdate.Designer.cs">
+      <DependentUpon>AdminCashierUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFoodCreateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFoodCreateForm.Designer.cs">
+      <DependentUpon>AdminFoodCreateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFoodDeleteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFoodDeleteForm.Designer.cs">
+      <DependentUpon>AdminFoodDeleteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFoodFindForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFoodFindForm.Designer.cs">
+      <DependentUpon>AdminFoodFindForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierFoodDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierFoodDetails.Designer.cs">
+      <DependentUpon>CashierFoodDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFoodUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFoodUpdateForm.Designer.cs">
+      <DependentUpon>AdminFoodUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLoginForm.Designer.cs">
+      <DependentUpon>AdminLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMain.Designer.cs">
+      <DependentUpon>AdminMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFoodItemMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFoodItemMain.Designer.cs">
+      <DependentUpon>AdminFoodItemMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewRevenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewRevenue.Designer.cs">
+      <DependentUpon>AdminViewRevenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCashierMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminCashierMain.Designer.cs">
+      <DependentUpon>AdminCashierMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeForm.Designer.cs">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierLoginForm.Designer.cs">
+      <DependentUpon>CashierLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CashierMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierMain.Designer.cs">
+      <DependentUpon>CashierMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdminCashierCreateForm.resx">
+      <DependentUpon>AdminCashierCreateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminCashierDelete.resx">
+      <DependentUpon>AdminCashierDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminCashierFindForm.resx">
+      <DependentUpon>AdminCashierFindForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminCashierUpdate.resx">
+      <DependentUpon>AdminCashierUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFoodCreateForm.resx">
+      <DependentUpon>AdminFoodCreateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFoodDeleteForm.resx">
+      <DependentUpon>AdminFoodDeleteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFoodFindForm.resx">
+      <DependentUpon>AdminFoodFindForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierFoodDetails.resx">
+      <DependentUpon>CashierFoodDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFoodUpdateForm.resx">
+      <DependentUpon>AdminFoodUpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLoginForm.resx">
+      <DependentUpon>AdminLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMain.resx">
+      <DependentUpon>AdminMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFoodItemMain.resx">
+      <DependentUpon>AdminFoodItemMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewRevenue.resx">
+      <DependentUpon>AdminViewRevenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminCashierMain.resx">
+      <DependentUpon>AdminCashierMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeForm.resx">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierLoginForm.resx">
+      <DependentUpon>CashierLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierMain.resx">
+      <DependentUpon>CashierMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
